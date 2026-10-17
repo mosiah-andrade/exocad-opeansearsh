@@ -1,0 +1,48 @@
+﻿{
+    "Method":  "System.Management.Automation.Language.Parser.ParseFile",
+    "Scripts":  [
+                    {
+                        "Path":  "scripts/catalogar-exocad.ps1",
+                        "ParseErrors":  0,
+                        "Errors":  [
+
+                                   ]
+                    },
+                    {
+                        "Path":  "scripts/comparar-inventarios.ps1",
+                        "ParseErrors":  0,
+                        "Errors":  [
+
+                                   ]
+                    },
+                    {
+                        "Path":  "scripts/extrair-certificados-pe.ps1",
+                        "ParseErrors":  0,
+                        "Errors":  [
+
+                                   ]
+                    },
+                    {
+                        "Path":  "scripts/verificar-authenticode-offline.ps1",
+                        "ParseErrors":  0,
+                        "Errors":  [
+
+                                   ]
+                    },
+                    {
+                        "Path":  "scripts/verificar-authenticode-catalogo.ps1",
+                        "ParseErrors":  0,
+                        "Errors":  [
+
+                                   ]
+                    },
+                    {
+                        "Path":  "scripts/comparar-authenticode-timestamp.ps1",
+                        "ParseErrors":  0,
+                        "Errors":  [
+
+                                   ]
+                    }
+                ],
+    "TotalParseErrors":  0
+}

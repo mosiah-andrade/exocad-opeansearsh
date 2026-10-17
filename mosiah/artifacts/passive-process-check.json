@@ -1,0 +1,13 @@
+﻿{
+    "ObservedUtc":  "2026-10-17T18:29:29.6439036Z",
+    "NamePattern":  "(?i)exocad|DentalCAD|DentalDB|exoprint|LibraryManager",
+    "ProcessMatchCount":  0,
+    "Processes":  [
+
+                  ],
+    "ServiceMatchCount":  0,
+    "Services":  [
+
+                 ],
+    "Interpretation":  "No match by these known names at this observation time; aliases or unnamed dependencies are not ruled out."
+}

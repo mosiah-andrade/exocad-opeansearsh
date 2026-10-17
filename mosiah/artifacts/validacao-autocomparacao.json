@@ -1,0 +1,9 @@
+﻿{
+    "Mode":  "self-comparison",
+    "InputCsv":  "C:\\Users\\labor\\Downloads\\mosiah\\artifacts\\catalogo-exocad.csv",
+    "Rows":  13151,
+    "Added":  0,
+    "Removed":  0,
+    "Changed":  0,
+    "Pass":  true
+}

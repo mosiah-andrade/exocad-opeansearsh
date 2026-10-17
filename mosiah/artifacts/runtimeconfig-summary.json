@@ -1,0 +1,661 @@
+{
+  "GeneratedUtc": "2026-10-17T18:44:19.402Z",
+  "Scope": "Cataloged software trees only; CAD-Data and user profiles excluded.",
+  "CatalogPath": "artifacts/catalogo-exocad.json",
+  "CatalogSHA256": "a167d17074b3803a19b18e49fea9a553da753ff2acd3c62c8e0d3bfa3e257096",
+  "RuntimeConfigCount": 18,
+  "ParsedCount": 18,
+  "ErrorCount": 0,
+  "FrameworkDeclarations": [
+    {
+      "Name": "Microsoft.AspNetCore.App",
+      "Version": "8.0.0",
+      "ManifestCount": 5
+    },
+    {
+      "Name": "Microsoft.NETCore.App",
+      "Version": "8.0.0",
+      "ManifestCount": 18
+    },
+    {
+      "Name": "Microsoft.WindowsDesktop.App",
+      "Version": "8.0.0",
+      "ManifestCount": 18
+    }
+  ],
+  "Files": [
+    {
+      "RelativePath": "DentalCADApp/bin/DentalCADApp.runtimeconfig.json",
+      "SizeBytes": 857,
+      "SHA256": "a746abbe5b9e5e2aff105d729ee181e9d4d124d4d648ca1a60f44af3b247ef86",
+      "Tfm": "net8.0",
+      "Framework": null,
+      "Frameworks": [
+        {
+          "Name": "Microsoft.NETCore.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        },
+        {
+          "Name": "Microsoft.WindowsDesktop.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        }
+      ],
+      "IncludedFrameworks": [],
+      "RuntimeOptions": {
+        "RollForward": "LatestMinor",
+        "ApplyPatches": null,
+        "ConfigProperties": {
+          "DpiAwareness": "PerMonitorV2",
+          "Switch.System.IO.BlockLongPaths": false,
+          "Switch.System.IO.UseLegacyPathHandling": false,
+          "Switch.System.Net.DontEnableSystemDefaultTlsVersions": false,
+          "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
+          "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
+          "System.Windows.Forms.DisableDpiChangedHighDpiImprovements": false,
+          "System.Windows.Forms.EnableWindowsFormsHighDpiAutoResizing": true
+        }
+      }
+    },
+    {
+      "RelativePath": "DentalCADApp/bin/ExoViewer3D.runtimeconfig.json",
+      "SizeBytes": 857,
+      "SHA256": "a746abbe5b9e5e2aff105d729ee181e9d4d124d4d648ca1a60f44af3b247ef86",
+      "Tfm": "net8.0",
+      "Framework": null,
+      "Frameworks": [
+        {
+          "Name": "Microsoft.NETCore.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        },
+        {
+          "Name": "Microsoft.WindowsDesktop.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        }
+      ],
+      "IncludedFrameworks": [],
+      "RuntimeOptions": {
+        "RollForward": "LatestMinor",
+        "ApplyPatches": null,
+        "ConfigProperties": {
+          "DpiAwareness": "PerMonitorV2",
+          "Switch.System.IO.BlockLongPaths": false,
+          "Switch.System.IO.UseLegacyPathHandling": false,
+          "Switch.System.Net.DontEnableSystemDefaultTlsVersions": false,
+          "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
+          "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
+          "System.Windows.Forms.DisableDpiChangedHighDpiImprovements": false,
+          "System.Windows.Forms.EnableWindowsFormsHighDpiAutoResizing": true
+        }
+      }
+    },
+    {
+      "RelativePath": "DentalCADApp/bin/UpdateHelper.runtimeconfig.json",
+      "SizeBytes": 709,
+      "SHA256": "2f80ff7cf38be8d3b2c097312d414131e7ce295266d2e5f7bd5a7b09240b2582",
+      "Tfm": "net8.0",
+      "Framework": null,
+      "Frameworks": [
+        {
+          "Name": "Microsoft.NETCore.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        },
+        {
+          "Name": "Microsoft.WindowsDesktop.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        }
+      ],
+      "IncludedFrameworks": [],
+      "RuntimeOptions": {
+        "RollForward": "LatestMinor",
+        "ApplyPatches": null,
+        "ConfigProperties": {
+          "DpiAwareness": "PerMonitorV2",
+          "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
+          "System.Runtime.Loader.UseRidGraph": true,
+          "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
+          "System.Windows.Forms.DisableDpiChangedHighDpiImprovements": false,
+          "System.Windows.Forms.EnableWindowsFormsHighDpiAutoResizing": true
+        }
+      }
+    },
+    {
+      "RelativePath": "DentalDB/bin/CopyAndOpen.runtimeconfig.json",
+      "SizeBytes": 682,
+      "SHA256": "dbe0f77a35ba45a6d686ec77e97802917ea4ed31d0ac49e7b906c2c02917f0de",
+      "Tfm": "net8.0",
+      "Framework": null,
+      "Frameworks": [
+        {
+          "Name": "Microsoft.NETCore.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        },
+        {
+          "Name": "Microsoft.WindowsDesktop.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        }
+      ],
+      "IncludedFrameworks": [],
+      "RuntimeOptions": {
+        "RollForward": "LatestMinor",
+        "ApplyPatches": null,
+        "ConfigProperties": {
+          "DpiAwareness": "PerMonitorV2",
+          "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
+          "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
+          "System.Windows.Forms.DisableDpiChangedHighDpiImprovements": false,
+          "System.Windows.Forms.EnableWindowsFormsHighDpiAutoResizing": true
+        }
+      }
+    },
+    {
+      "RelativePath": "DentalDB/bin/DentalDB.runtimeconfig.json",
+      "SizeBytes": 774,
+      "SHA256": "00ac59dfb86e284636b50148932a97b4b04889a07c13cfdc0ba381af1ed8e565",
+      "Tfm": "net8.0",
+      "Framework": null,
+      "Frameworks": [
+        {
+          "Name": "Microsoft.NETCore.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        },
+        {
+          "Name": "Microsoft.WindowsDesktop.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        },
+        {
+          "Name": "Microsoft.AspNetCore.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        }
+      ],
+      "IncludedFrameworks": [],
+      "RuntimeOptions": {
+        "RollForward": "LatestMinor",
+        "ApplyPatches": null,
+        "ConfigProperties": {
+          "DpiAwareness": "PerMonitorV2",
+          "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
+          "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
+          "System.Windows.Forms.DisableDpiChangedHighDpiImprovements": false,
+          "System.Windows.Forms.EnableWindowsFormsHighDpiAutoResizing": true
+        }
+      }
+    },
+    {
+      "RelativePath": "DentalDB/bin/dentalProject2Web.runtimeconfig.json",
+      "SizeBytes": 682,
+      "SHA256": "dbe0f77a35ba45a6d686ec77e97802917ea4ed31d0ac49e7b906c2c02917f0de",
+      "Tfm": "net8.0",
+      "Framework": null,
+      "Frameworks": [
+        {
+          "Name": "Microsoft.NETCore.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        },
+        {
+          "Name": "Microsoft.WindowsDesktop.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        }
+      ],
+      "IncludedFrameworks": [],
+      "RuntimeOptions": {
+        "RollForward": "LatestMinor",
+        "ApplyPatches": null,
+        "ConfigProperties": {
+          "DpiAwareness": "PerMonitorV2",
+          "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
+          "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
+          "System.Windows.Forms.DisableDpiChangedHighDpiImprovements": false,
+          "System.Windows.Forms.EnableWindowsFormsHighDpiAutoResizing": true
+        }
+      }
+    },
+    {
+      "RelativePath": "DentalDB/bin/DentalShareDownload.runtimeconfig.json",
+      "SizeBytes": 530,
+      "SHA256": "bacea19f4f3b037f291fb53a628d0f6cfd9f72c1264cd195941e9766eb4eb840",
+      "Tfm": "net8.0",
+      "Framework": null,
+      "Frameworks": [
+        {
+          "Name": "Microsoft.NETCore.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        },
+        {
+          "Name": "Microsoft.WindowsDesktop.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        }
+      ],
+      "IncludedFrameworks": [],
+      "RuntimeOptions": {
+        "RollForward": "LatestMinor",
+        "ApplyPatches": null,
+        "ConfigProperties": {
+          "CSWINRT_USE_WINDOWS_UI_XAML_PROJECTIONS": false,
+          "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
+          "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true
+        }
+      }
+    },
+    {
+      "RelativePath": "DentalDB/bin/DentalShareUpload.runtimeconfig.json",
+      "SizeBytes": 618,
+      "SHA256": "bf42fc8ef8630ea11aaa48d53b851b1c6d768bff0b9eab2dffa7591e5e2b00ae",
+      "Tfm": "net8.0",
+      "Framework": null,
+      "Frameworks": [
+        {
+          "Name": "Microsoft.NETCore.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        },
+        {
+          "Name": "Microsoft.WindowsDesktop.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        },
+        {
+          "Name": "Microsoft.AspNetCore.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        }
+      ],
+      "IncludedFrameworks": [],
+      "RuntimeOptions": {
+        "RollForward": "LatestMinor",
+        "ApplyPatches": null,
+        "ConfigProperties": {
+          "CSWINRT_USE_WINDOWS_UI_XAML_PROJECTIONS": false,
+          "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
+          "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true
+        }
+      }
+    },
+    {
+      "RelativePath": "DentalDB/bin/DepParamDuplicateCleanup.runtimeconfig.json",
+      "SizeBytes": 682,
+      "SHA256": "dbe0f77a35ba45a6d686ec77e97802917ea4ed31d0ac49e7b906c2c02917f0de",
+      "Tfm": "net8.0",
+      "Framework": null,
+      "Frameworks": [
+        {
+          "Name": "Microsoft.NETCore.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        },
+        {
+          "Name": "Microsoft.WindowsDesktop.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        }
+      ],
+      "IncludedFrameworks": [],
+      "RuntimeOptions": {
+        "RollForward": "LatestMinor",
+        "ApplyPatches": null,
+        "ConfigProperties": {
+          "DpiAwareness": "PerMonitorV2",
+          "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
+          "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
+          "System.Windows.Forms.DisableDpiChangedHighDpiImprovements": false,
+          "System.Windows.Forms.EnableWindowsFormsHighDpiAutoResizing": true
+        }
+      }
+    },
+    {
+      "RelativePath": "DentalDB/bin/DSCoreConnector.runtimeconfig.json",
+      "SizeBytes": 841,
+      "SHA256": "ae6eb5de76ea95bde448bbe34b2d0801742161e3f107624b3c9c9577bb1933c8",
+      "Tfm": "net8.0",
+      "Framework": null,
+      "Frameworks": [
+        {
+          "Name": "Microsoft.NETCore.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        },
+        {
+          "Name": "Microsoft.WindowsDesktop.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        },
+        {
+          "Name": "Microsoft.AspNetCore.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        }
+      ],
+      "IncludedFrameworks": [],
+      "RuntimeOptions": {
+        "RollForward": "LatestMinor",
+        "ApplyPatches": null,
+        "ConfigProperties": {
+          "DpiAwareness": "PerMonitorV2",
+          "MVVMTOOLKIT_ENABLE_INOTIFYPROPERTYCHANGING_SUPPORT": true,
+          "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
+          "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
+          "System.Windows.Forms.DisableDpiChangedHighDpiImprovements": false,
+          "System.Windows.Forms.EnableWindowsFormsHighDpiAutoResizing": true
+        }
+      }
+    },
+    {
+      "RelativePath": "DentalDB/bin/ExoInstallerStartInstalledClientOrShowWebPage.runtimeconfig.json",
+      "SizeBytes": 682,
+      "SHA256": "dbe0f77a35ba45a6d686ec77e97802917ea4ed31d0ac49e7b906c2c02917f0de",
+      "Tfm": "net8.0",
+      "Framework": null,
+      "Frameworks": [
+        {
+          "Name": "Microsoft.NETCore.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        },
+        {
+          "Name": "Microsoft.WindowsDesktop.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        }
+      ],
+      "IncludedFrameworks": [],
+      "RuntimeOptions": {
+        "RollForward": "LatestMinor",
+        "ApplyPatches": null,
+        "ConfigProperties": {
+          "DpiAwareness": "PerMonitorV2",
+          "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
+          "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
+          "System.Windows.Forms.DisableDpiChangedHighDpiImprovements": false,
+          "System.Windows.Forms.EnableWindowsFormsHighDpiAutoResizing": true
+        }
+      }
+    },
+    {
+      "RelativePath": "DentalDB/bin/myIteroConnector.runtimeconfig.json",
+      "SizeBytes": 774,
+      "SHA256": "00ac59dfb86e284636b50148932a97b4b04889a07c13cfdc0ba381af1ed8e565",
+      "Tfm": "net8.0",
+      "Framework": null,
+      "Frameworks": [
+        {
+          "Name": "Microsoft.NETCore.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        },
+        {
+          "Name": "Microsoft.WindowsDesktop.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        },
+        {
+          "Name": "Microsoft.AspNetCore.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        }
+      ],
+      "IncludedFrameworks": [],
+      "RuntimeOptions": {
+        "RollForward": "LatestMinor",
+        "ApplyPatches": null,
+        "ConfigProperties": {
+          "DpiAwareness": "PerMonitorV2",
+          "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
+          "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
+          "System.Windows.Forms.DisableDpiChangedHighDpiImprovements": false,
+          "System.Windows.Forms.EnableWindowsFormsHighDpiAutoResizing": true
+        }
+      }
+    },
+    {
+      "RelativePath": "DentalDB/bin/Share3DPreviewUploadTool.ScanImport01.runtimeconfig.json",
+      "SizeBytes": 774,
+      "SHA256": "00ac59dfb86e284636b50148932a97b4b04889a07c13cfdc0ba381af1ed8e565",
+      "Tfm": "net8.0",
+      "Framework": null,
+      "Frameworks": [
+        {
+          "Name": "Microsoft.NETCore.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        },
+        {
+          "Name": "Microsoft.WindowsDesktop.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        },
+        {
+          "Name": "Microsoft.AspNetCore.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        }
+      ],
+      "IncludedFrameworks": [],
+      "RuntimeOptions": {
+        "RollForward": "LatestMinor",
+        "ApplyPatches": null,
+        "ConfigProperties": {
+          "DpiAwareness": "PerMonitorV2",
+          "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
+          "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
+          "System.Windows.Forms.DisableDpiChangedHighDpiImprovements": false,
+          "System.Windows.Forms.EnableWindowsFormsHighDpiAutoResizing": true
+        }
+      }
+    },
+    {
+      "RelativePath": "DentalDB/bin/WebviewUploader.runtimeconfig.json",
+      "SizeBytes": 682,
+      "SHA256": "dbe0f77a35ba45a6d686ec77e97802917ea4ed31d0ac49e7b906c2c02917f0de",
+      "Tfm": "net8.0",
+      "Framework": null,
+      "Frameworks": [
+        {
+          "Name": "Microsoft.NETCore.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        },
+        {
+          "Name": "Microsoft.WindowsDesktop.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        }
+      ],
+      "IncludedFrameworks": [],
+      "RuntimeOptions": {
+        "RollForward": "LatestMinor",
+        "ApplyPatches": null,
+        "ConfigProperties": {
+          "DpiAwareness": "PerMonitorV2",
+          "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
+          "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
+          "System.Windows.Forms.DisableDpiChangedHighDpiImprovements": false,
+          "System.Windows.Forms.EnableWindowsFormsHighDpiAutoResizing": true
+        }
+      }
+    },
+    {
+      "RelativePath": "DentalDB/bin/WorkParamConfigToolWPF.runtimeconfig.json",
+      "SizeBytes": 682,
+      "SHA256": "dbe0f77a35ba45a6d686ec77e97802917ea4ed31d0ac49e7b906c2c02917f0de",
+      "Tfm": "net8.0",
+      "Framework": null,
+      "Frameworks": [
+        {
+          "Name": "Microsoft.NETCore.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        },
+        {
+          "Name": "Microsoft.WindowsDesktop.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        }
+      ],
+      "IncludedFrameworks": [],
+      "RuntimeOptions": {
+        "RollForward": "LatestMinor",
+        "ApplyPatches": null,
+        "ConfigProperties": {
+          "DpiAwareness": "PerMonitorV2",
+          "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
+          "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
+          "System.Windows.Forms.DisableDpiChangedHighDpiImprovements": false,
+          "System.Windows.Forms.EnableWindowsFormsHighDpiAutoResizing": true
+        }
+      }
+    },
+    {
+      "RelativePath": "exoprint/bin/TransferTo3DPrinter.runtimeconfig.json",
+      "SizeBytes": 682,
+      "SHA256": "dbe0f77a35ba45a6d686ec77e97802917ea4ed31d0ac49e7b906c2c02917f0de",
+      "Tfm": "net8.0",
+      "Framework": null,
+      "Frameworks": [
+        {
+          "Name": "Microsoft.NETCore.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        },
+        {
+          "Name": "Microsoft.WindowsDesktop.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        }
+      ],
+      "IncludedFrameworks": [],
+      "RuntimeOptions": {
+        "RollForward": "LatestMinor",
+        "ApplyPatches": null,
+        "ConfigProperties": {
+          "DpiAwareness": "PerMonitorV2",
+          "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
+          "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
+          "System.Windows.Forms.DisableDpiChangedHighDpiImprovements": false,
+          "System.Windows.Forms.EnableWindowsFormsHighDpiAutoResizing": true
+        }
+      }
+    },
+    {
+      "RelativePath": "LibraryManager/bin/libraryManager.runtimeconfig.json",
+      "SizeBytes": 921,
+      "SHA256": "99ad297baefe5d8519f7c4f95c0375f8dc878d24ea896be56406487c06021d15",
+      "Tfm": "net8.0",
+      "Framework": null,
+      "Frameworks": [
+        {
+          "Name": "Microsoft.NETCore.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        },
+        {
+          "Name": "Microsoft.WindowsDesktop.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        }
+      ],
+      "IncludedFrameworks": [],
+      "RuntimeOptions": {
+        "RollForward": "LatestMinor",
+        "ApplyPatches": null,
+        "ConfigProperties": {
+          "DpiAwareness": "PerMonitorV2",
+          "Switch.System.IO.BlockLongPaths": false,
+          "Switch.System.IO.UseLegacyPathHandling": false,
+          "Switch.System.Net.DontEnableSchUseStrongCrypto": false,
+          "Switch.System.Net.DontEnableSystemDefaultTlsVersions": false,
+          "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
+          "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
+          "System.Windows.Forms.DisableDpiChangedHighDpiImprovements": false,
+          "System.Windows.Forms.EnableWindowsFormsHighDpiAutoResizing": true
+        }
+      }
+    },
+    {
+      "RelativePath": "LibraryManager/bin/libraryManagerInstaller.runtimeconfig.json",
+      "SizeBytes": 682,
+      "SHA256": "dbe0f77a35ba45a6d686ec77e97802917ea4ed31d0ac49e7b906c2c02917f0de",
+      "Tfm": "net8.0",
+      "Framework": null,
+      "Frameworks": [
+        {
+          "Name": "Microsoft.NETCore.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        },
+        {
+          "Name": "Microsoft.WindowsDesktop.App",
+          "Version": "8.0.0",
+          "RollForward": null,
+          "ApplyPatches": null
+        }
+      ],
+      "IncludedFrameworks": [],
+      "RuntimeOptions": {
+        "RollForward": "LatestMinor",
+        "ApplyPatches": null,
+        "ConfigProperties": {
+          "DpiAwareness": "PerMonitorV2",
+          "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
+          "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
+          "System.Windows.Forms.DisableDpiChangedHighDpiImprovements": false,
+          "System.Windows.Forms.EnableWindowsFormsHighDpiAutoResizing": true
+        }
+      }
+    }
+  ],
+  "Errors": []
+}

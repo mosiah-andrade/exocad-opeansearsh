@@ -1,0 +1,39 @@
+﻿{
+    "Method":  "WinVerifyTrust / WINTRUST_ACTION_GENERIC_VERIFY_V2",
+    "Scope":  [
+                  "DentalCADApp\\bin\\DentalCADApp.exe",
+                  "DentalDB\\bin\\DentalDB.exe",
+                  "exoprint\\bin\\TransferTo3DPrinter.exe",
+                  "LibraryManager\\bin\\LibraryManager.exe"
+              ],
+    "UI":  "suppressed",
+    "Revocation":  "disabled; local trust cache only",
+    "NetworkURLRetrieval":  "disabled by WTD_CACHE_ONLY_URL_RETRIEVAL",
+    "TimestampFreshness":  "not established",
+    "Files":  [
+                  {
+                      "RelativePath":  "DentalCADApp\\bin\\DentalCADApp.exe",
+                      "StatusCode":  "0x00000000",
+                      "SignatureValidAgainstLocalTrust":  true,
+                      "FileSHA256":  "db3f45f7e8c99f909a4fde9ea79f5ae17b566fed63c024ce735dd793177dd0fa"
+                  },
+                  {
+                      "RelativePath":  "DentalDB\\bin\\DentalDB.exe",
+                      "StatusCode":  "0x00000000",
+                      "SignatureValidAgainstLocalTrust":  true,
+                      "FileSHA256":  "c05969fb5b1879f05661211044ac9a57d8ba193aca5cbf65615545adcecaf6a8"
+                  },
+                  {
+                      "RelativePath":  "exoprint\\bin\\TransferTo3DPrinter.exe",
+                      "StatusCode":  "0x00000000",
+                      "SignatureValidAgainstLocalTrust":  true,
+                      "FileSHA256":  "65254e1254fded13636fbff872c051f699aa7168cd87f56782b95bf9ad93c927"
+                  },
+                  {
+                      "RelativePath":  "LibraryManager\\bin\\LibraryManager.exe",
+                      "StatusCode":  "0x00000000",
+                      "SignatureValidAgainstLocalTrust":  true,
+                      "FileSHA256":  "c945b83e81fb0465b6d8fb6f902ef19a8a320d82c062bc9b80b1ba85d2067ae2"
+                  }
+              ]
+}

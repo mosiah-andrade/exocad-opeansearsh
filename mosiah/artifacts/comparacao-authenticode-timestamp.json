@@ -1,0 +1,2827 @@
+﻿{
+    "Method":  "WinVerifyTrust / WINTRUST_ACTION_GENERIC_VERIFY_V2",
+    "CandidateCount":  312,
+    "Comparison":  "WTD_LIFETIME_SIGNING_FLAG omitted; other offline flags held constant",
+    "UI":  "suppressed",
+    "Revocation":  "disabled; local trust cache only",
+    "NetworkURLRetrieval":  "disabled by WTD_CACHE_ONLY_URL_RETRIEVAL",
+    "Interpretation":  "A success here means Windows accepts the signature under its ordinary timestamp policy and current local trust cache. It does not validate online revocation or establish that a timestamp remains within the signer certificate lifetime.",
+    "HashMatchCount":  312,
+    "ValidAgainstLocalPolicyCount":  312,
+    "StatusCounts":  [
+                         {
+                             "StatusCode":  "0x00000000",
+                             "Count":  312
+                         }
+                     ],
+    "Files":  [
+                  {
+                      "RelativePath":  "DentalCADApp/bin/cs/System.Private.ServiceModel.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "9c07090874c01a171db98405e89a4ce61d6ce89ecad6fd19fc01de0880952571",
+                      "ObservedHash":  "9c07090874c01a171db98405e89a4ce61d6ce89ecad6fd19fc01de0880952571",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/de/System.Private.ServiceModel.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "57c9fdfb8db6154bf0c8aadc6add52b53bc3d829a55500de7411f7941c5eaba9",
+                      "ObservedHash":  "57c9fdfb8db6154bf0c8aadc6add52b53bc3d829a55500de7411f7941c5eaba9",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/DentalCADExternals64.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "62af7c88d40865d4e1cd4379392ed4ddddad507af6ab0078bd9b0893997a8e24",
+                      "ObservedHash":  "62af7c88d40865d4e1cd4379392ed4ddddad507af6ab0078bd9b0893997a8e24",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/es/System.Private.ServiceModel.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "556f8820d41d1d9a985ca3325a2adc44cacfa688ec8a5a885261495b4b7f93a0",
+                      "ObservedHash":  "556f8820d41d1d9a985ca3325a2adc44cacfa688ec8a5a885261495b4b7f93a0",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/fr/System.Private.ServiceModel.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "59c05b5fbfe31bcaceffa67fa5a4f3fe555e3e8d6c26c8b7965323cf181b7cbb",
+                      "ObservedHash":  "59c05b5fbfe31bcaceffa67fa5a4f3fe555e3e8d6c26c8b7965323cf181b7cbb",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/Google.Protobuf.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "32f6953336c499f058f9358a502f07e8cc9b1bc58b427918f33ba0a78a4157aa",
+                      "ObservedHash":  "32f6953336c499f058f9358a502f07e8cc9b1bc58b427918f33ba0a78a4157aa",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/Grpc.Core.Api.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "33d8ba7ff238168f165a62e49f3c6d7b5bdf864f5ef5cb2f0facfcc67d716aef",
+                      "ObservedHash":  "33d8ba7ff238168f165a62e49f3c6d7b5bdf864f5ef5cb2f0facfcc67d716aef",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/Grpc.Net.Client.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "06a550e28e8b5740c1c188ad9918e0ea0aa657553a34dd93de46888d473de1bc",
+                      "ObservedHash":  "06a550e28e8b5740c1c188ad9918e0ea0aa657553a34dd93de46888d473de1bc",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/Grpc.Net.Common.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "e57afb00062a728a32cba1b1158d2592892b73cfb2bd0e767ffc753ce6a4dcfc",
+                      "ObservedHash":  "e57afb00062a728a32cba1b1158d2592892b73cfb2bd0e767ffc753ce6a4dcfc",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/Ijwhost.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "4f2f43ce18d0c8689785bbe9c1c7257a852da0160a4a9a380f9acf2555687159",
+                      "ObservedHash":  "4f2f43ce18d0c8689785bbe9c1c7257a852da0160a4a9a380f9acf2555687159",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/it/System.Private.ServiceModel.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "a09f71c7ceb505c4b2a5321c67f468d7ea9946542050190c1fa7b03beab26a0d",
+                      "ObservedHash":  "a09f71c7ceb505c4b2a5321c67f468d7ea9946542050190c1fa7b03beab26a0d",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/ja/System.Private.ServiceModel.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "949d6fc99470cfdc66c43cd7af565d71e226d052149937d6665ef426109ad176",
+                      "ObservedHash":  "949d6fc99470cfdc66c43cd7af565d71e226d052149937d6665ef426109ad176",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/ko/System.Private.ServiceModel.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "990ef9cb66dba77ae02bd0600e0714874124c3d4d0001cc1fec8e90c2103266d",
+                      "ObservedHash":  "990ef9cb66dba77ae02bd0600e0714874124c3d4d0001cc1fec8e90c2103266d",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/libiomp5md.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "b2b162299e70c79a3f854dd42768fef0bb55982e86f34905782adb7a5a3cfdc0",
+                      "ObservedHash":  "b2b162299e70c79a3f854dd42768fef0bb55982e86f34905782adb7a5a3cfdc0",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/Microsoft.Bcl.AsyncInterfaces.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "00f26117b0a77b562d5c01038d8b52f8d0b9e18b7c532e16dfae1857a19f2271",
+                      "ObservedHash":  "00f26117b0a77b562d5c01038d8b52f8d0b9e18b7c532e16dfae1857a19f2271",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/Microsoft.Data.Sqlite.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "c077800c5c1aa9616a53803a372802d00e6b490b313e9b684c77d43740ecc2dd",
+                      "ObservedHash":  "c077800c5c1aa9616a53803a372802d00e6b490b313e9b684c77d43740ecc2dd",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "a0106a638facae621f870eda720cb6c980c1d5d49c2f4351134e3fe043b9291b",
+                      "ObservedHash":  "a0106a638facae621f870eda720cb6c980c1d5d49c2f4351134e3fe043b9291b",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/Microsoft.Extensions.DependencyInjection.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "8d6e7b64cce554f0a0fbdb2ba80745895fa0b4e6cc378b9fedfe8ce86f0d8ae4",
+                      "ObservedHash":  "8d6e7b64cce554f0a0fbdb2ba80745895fa0b4e6cc378b9fedfe8ce86f0d8ae4",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/Microsoft.Extensions.Logging.Abstractions.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "e6efd903729884e8601ed9ed1265be166cf2210dfe5f8ac64d529bea2b08072c",
+                      "ObservedHash":  "e6efd903729884e8601ed9ed1265be166cf2210dfe5f8ac64d529bea2b08072c",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/Microsoft.Extensions.ObjectPool.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "ce5b0a485dcc4c63a242757499220d319b7ff655693fab8b87f6d328875d9c41",
+                      "ObservedHash":  "ce5b0a485dcc4c63a242757499220d319b7ff655693fab8b87f6d328875d9c41",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/Microsoft.IdentityModel.Abstractions.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "f4694d23f05cc0263abbcb536d132e243bc9c175ae642387fa98652b880a4be0",
+                      "ObservedHash":  "f4694d23f05cc0263abbcb536d132e243bc9c175ae642387fa98652b880a4be0",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/Microsoft.IdentityModel.JsonWebTokens.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "58277455122589b39c20e94f403fca7d3abcf5488bd9d8702ac75d03770f49f8",
+                      "ObservedHash":  "58277455122589b39c20e94f403fca7d3abcf5488bd9d8702ac75d03770f49f8",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/Microsoft.IdentityModel.Logging.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "5de12f537fa96ec3d47e1dabcf348807da1400f0e0f5654c4b6903310d691c9a",
+                      "ObservedHash":  "5de12f537fa96ec3d47e1dabcf348807da1400f0e0f5654c4b6903310d691c9a",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/Microsoft.IdentityModel.Tokens.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "929dd15f4a58930f21ec9eb95600775348ee63a059f6547a748607ede7521a4c",
+                      "ObservedHash":  "929dd15f4a58930f21ec9eb95600775348ee63a059f6547a748607ede7521a4c",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/Microsoft.Web.WebView2.Core.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "4db5df6a1dc787b96f16a4363282125a6ad4c51f46f6055f08b49f621e025826",
+                      "ObservedHash":  "4db5df6a1dc787b96f16a4363282125a6ad4c51f46f6055f08b49f621e025826",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/Microsoft.Web.WebView2.WinForms.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "3a2d552120c741f722f661573a75c90e3fd63d7414a5bc7c94d86a0d554d4d92",
+                      "ObservedHash":  "3a2d552120c741f722f661573a75c90e3fd63d7414a5bc7c94d86a0d554d4d92",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/Microsoft.Web.WebView2.Wpf.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "f6346528615bf162a8d827d6fff03f02797fe6f4329e480eb66776a9c200ae93",
+                      "ObservedHash":  "f6346528615bf162a8d827d6fff03f02797fe6f4329e480eb66776a9c200ae93",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/Microsoft.Xaml.Behaviors.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "acf2664d35f432ab9ea003040e5154ae8bb40a8f07d3eebee7093e97f44a96ea",
+                      "ObservedHash":  "acf2664d35f432ab9ea003040e5154ae8bb40a8f07d3eebee7093e97f44a96ea",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/Newtonsoft.Json.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "72cf291d4bab0edd08a9b07c6173e1e7ad1abb7ab727fd7044bf6305d7515661",
+                      "ObservedHash":  "72cf291d4bab0edd08a9b07c6173e1e7ad1abb7ab727fd7044bf6305d7515661",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/pl/System.Private.ServiceModel.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "4f1e2a2c3f10301e50f1ce305567b533f492016dc96a1c9520a2d520b8fe5e0c",
+                      "ObservedHash":  "4f1e2a2c3f10301e50f1ce305567b533f492016dc96a1c9520a2d520b8fe5e0c",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/pt-BR/System.Private.ServiceModel.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "10fb5b614f1f8aeb2feb1eb2e97c1ce03b6c2533214ff656bcee86b5a0a78307",
+                      "ObservedHash":  "10fb5b614f1f8aeb2feb1eb2e97c1ce03b6c2533214ff656bcee86b5a0a78307",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/ru/System.Private.ServiceModel.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "50c1f4f5e283cbf5b5a2f2a56d10dd0e2af86e0ef00496fe66278ea6b80d1533",
+                      "ObservedHash":  "50c1f4f5e283cbf5b5a2f2a56d10dd0e2af86e0ef00496fe66278ea6b80d1533",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/runtimes/win-x64/native/WebView2Loader.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "2d64a312551930dc56612cf358fcfd23133c0596a88c3ec1c467c392ff00b493",
+                      "ObservedHash":  "2d64a312551930dc56612cf358fcfd23133c0596a88c3ec1c467c392ff00b493",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/Scanner.exe",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "f4fa4f02c3fb4ae6c001ce28472743e10c2870534ababada8606d8a7d0691a13",
+                      "ObservedHash":  "f4fa4f02c3fb4ae6c001ce28472743e10c2870534ababada8606d8a7d0691a13",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/SQLite.Interop.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "9309fb2a3f326d0f2cc3f2ab837cfd02e4f8cb6b923b3b2be265591fd38f4961",
+                      "ObservedHash":  "9309fb2a3f326d0f2cc3f2ab837cfd02e4f8cb6b923b3b2be265591fd38f4961",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/System.Data.SQLite.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "534db30a067e362977ab8b944de1e624066016e09bf0964a5be237fe10a68ede",
+                      "ObservedHash":  "534db30a067e362977ab8b944de1e624066016e09bf0964a5be237fe10a68ede",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/System.IdentityModel.Tokens.Jwt.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "177d4c2d2a5891ef834c46990aa76b81ed7a198f70d78229f7374c0706ba0166",
+                      "ObservedHash":  "177d4c2d2a5891ef834c46990aa76b81ed7a198f70d78229f7374c0706ba0166",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/System.Management.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "2cbe832266a055205f29d3bbac6a5c8fe744da39b6bc7b05ae5bb5aca107bc70",
+                      "ObservedHash":  "2cbe832266a055205f29d3bbac6a5c8fe744da39b6bc7b05ae5bb5aca107bc70",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/System.Private.ServiceModel.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "2d1f4c9564aee3cb1c38cb7c3057e88bff5ded9b20e928209f1d3284776b49ff",
+                      "ObservedHash":  "2d1f4c9564aee3cb1c38cb7c3057e88bff5ded9b20e928209f1d3284776b49ff",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/System.Runtime.Serialization.Formatters.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "2214d856f9adee679dd6cac2abe5cd3f97a669c9f09ada161332d4b96d8fd64b",
+                      "ObservedHash":  "2214d856f9adee679dd6cac2abe5cd3f97a669c9f09ada161332d4b96d8fd64b",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/System.ServiceModel.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "4abfc874b36be6de244f3c54ac807229ed6435d4e15184f652a9ee48254b449f",
+                      "ObservedHash":  "4abfc874b36be6de244f3c54ac807229ed6435d4e15184f652a9ee48254b449f",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/System.ServiceModel.NetTcp.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "7cb705c35a0ac50774d4d93a8f536f797caa228a431c3decdbda14c7dc51c049",
+                      "ObservedHash":  "7cb705c35a0ac50774d4d93a8f536f797caa228a431c3decdbda14c7dc51c049",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/System.ServiceModel.Primitives.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "396d27f853e4e3dcca6a48cccfef9cc2ff6034e9a91007c002e444c05f10738f",
+                      "ObservedHash":  "396d27f853e4e3dcca6a48cccfef9cc2ff6034e9a91007c002e444c05f10738f",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/System.ServiceModel.Security.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "22c85e3a89c6bc7954a290808ff38881aa424907e0653fbc0bcc775c880204fe",
+                      "ObservedHash":  "22c85e3a89c6bc7954a290808ff38881aa424907e0653fbc0bcc775c880204fe",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/tr/System.Private.ServiceModel.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "71793ce55706eb2492f010c206b8c67d135f271897b63a3909af8bba0921bc37",
+                      "ObservedHash":  "71793ce55706eb2492f010c206b8c67d135f271897b63a3909af8bba0921bc37",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/UpdateHelper.exe",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "b9cceaa37c55c185173c0ed0ee7b5acc81aa4fe857abf23092c26517ef7098fa",
+                      "ObservedHash":  "b9cceaa37c55c185173c0ed0ee7b5acc81aa4fe857abf23092c26517ef7098fa",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/WebView2Loader.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "2d64a312551930dc56612cf358fcfd23133c0596a88c3ec1c467c392ff00b493",
+                      "ObservedHash":  "2d64a312551930dc56612cf358fcfd23133c0596a88c3ec1c467c392ff00b493",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/WPFToothSelectionControlv2Base.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "22a252e002a1b0d3e40346c3a3c7086a5a88e3748954233a5f3dc6de203661a7",
+                      "ObservedHash":  "22a252e002a1b0d3e40346c3a3c7086a5a88e3748954233a5f3dc6de203661a7",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/zh-Hans/System.Private.ServiceModel.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "5787910a1a1918a282af12108105ff11b742f58ad0165b444b528a5222bb97e4",
+                      "ObservedHash":  "5787910a1a1918a282af12108105ff11b742f58ad0165b444b528a5222bb97e4",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalCADApp/bin/zh-Hant/System.Private.ServiceModel.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "2252ac00e816c647f2635b48394b58270801ff9f63ce31ba56fa53b68566d718",
+                      "ObservedHash":  "2252ac00e816c647f2635b48394b58270801ff9f63ce31ba56fa53b68566d718",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Azure.Core.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "9fdf65a3649bd909a2ec6182ed57a871ff8cef4e17469f1ff8f057969b7d5bcc",
+                      "ObservedHash":  "9fdf65a3649bd909a2ec6182ed57a871ff8cef4e17469f1ff8f057969b7d5bcc",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Azure.Identity.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "fc2a610675b1803176706e7efff8c6242da082e4df4efe3b3bf37d65e476535d",
+                      "ObservedHash":  "fc2a610675b1803176706e7efff8c6242da082e4df4efe3b3bf37d65e476535d",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/BouncyCastle.Cryptography.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "5d5cdba3ebf5fc4564bd47dcdbe747215df905f192b6893a2a2caa9369875b39",
+                      "ObservedHash":  "5d5cdba3ebf5fc4564bd47dcdbe747215df905f192b6893a2a2caa9369875b39",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/CoreWCF.ConfigurationManager.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "3ffb5e379a6b989f3011e5680a93414953dc9b100ded25cb2adaa72bf875aaed",
+                      "ObservedHash":  "3ffb5e379a6b989f3011e5680a93414953dc9b100ded25cb2adaa72bf875aaed",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/CoreWCF.Http.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "0f3b6c93d3fb71168566f53d0e3eaf21a7efe766ca240004b866d52e32155ce2",
+                      "ObservedHash":  "0f3b6c93d3fb71168566f53d0e3eaf21a7efe766ca240004b866d52e32155ce2",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/CoreWCF.NetFramingBase.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "616adb92dae7a92124d5567ad61a8c618e8db4962a6495370f4e318836b6cd6d",
+                      "ObservedHash":  "616adb92dae7a92124d5567ad61a8c618e8db4962a6495370f4e318836b6cd6d",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/CoreWCF.NetNamedPipe.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "4597ca8147ad158ece49564d5d0e0f236f8e3f43e10f71cb5c46d742e4592a69",
+                      "ObservedHash":  "4597ca8147ad158ece49564d5d0e0f236f8e3f43e10f71cb5c46d742e4592a69",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/CoreWCF.NetTcp.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "4f8e20a23f9321d7ff6ea5d8459feed58585bb9e9e2823588275d869399ee90e",
+                      "ObservedHash":  "4f8e20a23f9321d7ff6ea5d8459feed58585bb9e9e2823588275d869399ee90e",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/CoreWCF.Primitives.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "918be048b9ae9d6653d1aa9e09561f357b32c4a884f96dbc2b5ead6e9ce3351c",
+                      "ObservedHash":  "918be048b9ae9d6653d1aa9e09561f357b32c4a884f96dbc2b5ead6e9ce3351c",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/CoreWCF.WebHttp.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "039590ef492cfc6c1928a1c3d661950e893bf9cc9eae039a8639bf4d13948fdc",
+                      "ObservedHash":  "039590ef492cfc6c1928a1c3d661950e893bf9cc9eae039a8639bf4d13948fdc",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/cs/System.Private.ServiceModel.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "9c07090874c01a171db98405e89a4ce61d6ce89ecad6fd19fc01de0880952571",
+                      "ObservedHash":  "9c07090874c01a171db98405e89a4ce61d6ce89ecad6fd19fc01de0880952571",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/cs/System.ServiceModel.Federation.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "a2fc016ae82dc80a80b26b120f459c6cc4705e96717aff1346f504a2c8c48755",
+                      "ObservedHash":  "a2fc016ae82dc80a80b26b120f459c6cc4705e96717aff1346f504a2c8c48755",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/cs/System.ServiceModel.Http.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "27ba9d163e22cf3fa004274828bc606d306c5e39d04ee151bc3851c3e03abd00",
+                      "ObservedHash":  "27ba9d163e22cf3fa004274828bc606d306c5e39d04ee151bc3851c3e03abd00",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/cs/System.ServiceModel.NetFramingBase.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "f7e6b6566bedad9ccc0a7f576992471fb0c3b3024347be0f45035f586fdaaff3",
+                      "ObservedHash":  "f7e6b6566bedad9ccc0a7f576992471fb0c3b3024347be0f45035f586fdaaff3",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/cs/System.ServiceModel.NetNamedPipe.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "1f5579b4f21c08548164bc02bf83696d27bbcbd1e865823bdffb1564e53d8c7a",
+                      "ObservedHash":  "1f5579b4f21c08548164bc02bf83696d27bbcbd1e865823bdffb1564e53d8c7a",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/cs/System.ServiceModel.NetTcp.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "dc2c6f30f87f4ef712a35f06fa2d58199e55673cdce32411bdfabcd77aebb72d",
+                      "ObservedHash":  "dc2c6f30f87f4ef712a35f06fa2d58199e55673cdce32411bdfabcd77aebb72d",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/cs/System.ServiceModel.Primitives.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "1308b5f3d3b9681b28aa2ec752cb30102468d2612169dc0b4e90e8b7abe63b58",
+                      "ObservedHash":  "1308b5f3d3b9681b28aa2ec752cb30102468d2612169dc0b4e90e8b7abe63b58",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/cs/System.Web.Services.Description.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "e64e53a539eda6c94194adcead9fa46962227cb0af95e5f2b2d4d98377a8d5bf",
+                      "ObservedHash":  "e64e53a539eda6c94194adcead9fa46962227cb0af95e5f2b2d4d98377a8d5bf",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/de/System.Private.ServiceModel.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "57c9fdfb8db6154bf0c8aadc6add52b53bc3d829a55500de7411f7941c5eaba9",
+                      "ObservedHash":  "57c9fdfb8db6154bf0c8aadc6add52b53bc3d829a55500de7411f7941c5eaba9",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/de/System.ServiceModel.Federation.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "2990e85b67f4f1a9b0f6b3fa7895544dbfdab68bef71bdb450eab109ace330d7",
+                      "ObservedHash":  "2990e85b67f4f1a9b0f6b3fa7895544dbfdab68bef71bdb450eab109ace330d7",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/de/System.ServiceModel.Http.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "97bf17af8f988347a54480df9a62e196fedfa7046369b18289d3990f4ef92b02",
+                      "ObservedHash":  "97bf17af8f988347a54480df9a62e196fedfa7046369b18289d3990f4ef92b02",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/de/System.ServiceModel.NetFramingBase.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "0af67d66e694889577655f156a875e9f1f8e35a06203d8b2a9addd77fea6955f",
+                      "ObservedHash":  "0af67d66e694889577655f156a875e9f1f8e35a06203d8b2a9addd77fea6955f",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/de/System.ServiceModel.NetNamedPipe.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "d5634a76d29c3885aeea115b5197de567696841f2721dc1cd0af9090a694157e",
+                      "ObservedHash":  "d5634a76d29c3885aeea115b5197de567696841f2721dc1cd0af9090a694157e",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/de/System.ServiceModel.NetTcp.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "f3479315d67abd7d31a789fc21fb94e25757c6d2fd61c6aee292b4a685984989",
+                      "ObservedHash":  "f3479315d67abd7d31a789fc21fb94e25757c6d2fd61c6aee292b4a685984989",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/de/System.ServiceModel.Primitives.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "0407cd192abab94026ef26c1343bc9ad7784a71f566f56e54e6316558ef2688f",
+                      "ObservedHash":  "0407cd192abab94026ef26c1343bc9ad7784a71f566f56e54e6316558ef2688f",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/de/System.Web.Services.Description.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "fdee8dee7f6d8905f0bdcc2ec4cf6ec036b899cf59566dd138509fc0550cf275",
+                      "ObservedHash":  "fdee8dee7f6d8905f0bdcc2ec4cf6ec036b899cf59566dd138509fc0550cf275",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/DentalshareHelperLib.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "3cfe7c063c81657d345a0f5ff3870e0eb4e1d504849179a05e3641d582b824fe",
+                      "ObservedHash":  "3cfe7c063c81657d345a0f5ff3870e0eb4e1d504849179a05e3641d582b824fe",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/DentalshareHelperLibBase64.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "22a252e002a1b0d3e40346c3a3c7086a5a88e3748954233a5f3dc6de203661a7",
+                      "ObservedHash":  "22a252e002a1b0d3e40346c3a3c7086a5a88e3748954233a5f3dc6de203661a7",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/es/System.Private.ServiceModel.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "556f8820d41d1d9a985ca3325a2adc44cacfa688ec8a5a885261495b4b7f93a0",
+                      "ObservedHash":  "556f8820d41d1d9a985ca3325a2adc44cacfa688ec8a5a885261495b4b7f93a0",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/es/System.ServiceModel.Federation.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "8e9c0516a647456416809bad2075aa2e1dbf3d1d6b03fde19a8ce05b27e9af3f",
+                      "ObservedHash":  "8e9c0516a647456416809bad2075aa2e1dbf3d1d6b03fde19a8ce05b27e9af3f",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/es/System.ServiceModel.Http.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "393ba15e467e3f03128eda5c332cd9a26c5f28b2240d8c07e1be37a92e4ef7fb",
+                      "ObservedHash":  "393ba15e467e3f03128eda5c332cd9a26c5f28b2240d8c07e1be37a92e4ef7fb",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/es/System.ServiceModel.NetFramingBase.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "dbda78099db5f51008fd427a9dc2ae036fe7472ba5af045ec0ee524fb801b824",
+                      "ObservedHash":  "dbda78099db5f51008fd427a9dc2ae036fe7472ba5af045ec0ee524fb801b824",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/es/System.ServiceModel.NetNamedPipe.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "270eed11e53de03db7208406e312d8bb0316876d2f712a82097268a117e59c41",
+                      "ObservedHash":  "270eed11e53de03db7208406e312d8bb0316876d2f712a82097268a117e59c41",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/es/System.ServiceModel.NetTcp.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "c0de4b5db0e25a1b6b433dcabea7078d0751068cc4003aca2b16ce07bf9455e6",
+                      "ObservedHash":  "c0de4b5db0e25a1b6b433dcabea7078d0751068cc4003aca2b16ce07bf9455e6",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/es/System.ServiceModel.Primitives.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "6f636832d4cb13468a3f8cf91d26c403d952be5db627bb1b9d4c58f6944ad859",
+                      "ObservedHash":  "6f636832d4cb13468a3f8cf91d26c403d952be5db627bb1b9d4c58f6944ad859",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/es/System.Web.Services.Description.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "6eff68fb8eb9a5a2e2eec79386378436324f404f833f4e354f5178b4d17c90ba",
+                      "ObservedHash":  "6eff68fb8eb9a5a2e2eec79386378436324f404f833f4e354f5178b4d17c90ba",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/fr/System.Private.ServiceModel.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "59c05b5fbfe31bcaceffa67fa5a4f3fe555e3e8d6c26c8b7965323cf181b7cbb",
+                      "ObservedHash":  "59c05b5fbfe31bcaceffa67fa5a4f3fe555e3e8d6c26c8b7965323cf181b7cbb",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/fr/System.ServiceModel.Federation.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "6969ece05c9d48c09c1afba1af7866037a100621723857c7eda8e5d86aebf378",
+                      "ObservedHash":  "6969ece05c9d48c09c1afba1af7866037a100621723857c7eda8e5d86aebf378",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/fr/System.ServiceModel.Http.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "73f84973c9909e3a7d5f137063bbb584bae549b4b7951860d8d090d76a52ad50",
+                      "ObservedHash":  "73f84973c9909e3a7d5f137063bbb584bae549b4b7951860d8d090d76a52ad50",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/fr/System.ServiceModel.NetFramingBase.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "a18607fb7611e2be899f26ff4c0d4fac38b88451511b05c55055f9a00de0d678",
+                      "ObservedHash":  "a18607fb7611e2be899f26ff4c0d4fac38b88451511b05c55055f9a00de0d678",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/fr/System.ServiceModel.NetNamedPipe.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "959538229945633a4957e7b86c4141499a490aebd9f4b5c1ac236fb201f045cc",
+                      "ObservedHash":  "959538229945633a4957e7b86c4141499a490aebd9f4b5c1ac236fb201f045cc",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/fr/System.ServiceModel.NetTcp.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "4d4453b7e80e534f725a1a64bc66b202d4793bfd21fc96f7056a0b2a2f07ed9c",
+                      "ObservedHash":  "4d4453b7e80e534f725a1a64bc66b202d4793bfd21fc96f7056a0b2a2f07ed9c",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/fr/System.ServiceModel.Primitives.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "eb93a2182ef9a7d19c4d0617f5ae8d1d9718a969d5812e54c0c0811d94d9d3d5",
+                      "ObservedHash":  "eb93a2182ef9a7d19c4d0617f5ae8d1d9718a969d5812e54c0c0811d94d9d3d5",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/fr/System.Web.Services.Description.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "9012b5fec85b5028720348695a526f5a3de24eeb6c9108e4612d6b4080968079",
+                      "ObservedHash":  "9012b5fec85b5028720348695a526f5a3de24eeb6c9108e4612d6b4080968079",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/it/System.Private.ServiceModel.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "a09f71c7ceb505c4b2a5321c67f468d7ea9946542050190c1fa7b03beab26a0d",
+                      "ObservedHash":  "a09f71c7ceb505c4b2a5321c67f468d7ea9946542050190c1fa7b03beab26a0d",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/it/System.ServiceModel.Federation.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "047e1bc9b9b72ed02b68bb398c1f4c8b75d1548c54c772998dd69c4e2428f6e1",
+                      "ObservedHash":  "047e1bc9b9b72ed02b68bb398c1f4c8b75d1548c54c772998dd69c4e2428f6e1",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/it/System.ServiceModel.Http.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "d6487828a37bfe511298d84f2145a63b93fd28d4edd000936c02ce8d00bbf057",
+                      "ObservedHash":  "d6487828a37bfe511298d84f2145a63b93fd28d4edd000936c02ce8d00bbf057",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/it/System.ServiceModel.NetFramingBase.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "d208311ab9084838ba0b2338cd3c686dea721b49f9da8669caad38cce4b49c76",
+                      "ObservedHash":  "d208311ab9084838ba0b2338cd3c686dea721b49f9da8669caad38cce4b49c76",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/it/System.ServiceModel.NetNamedPipe.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "f76c1369340930c242e3f7aadb0327e0c94898fee7305def5bd3cd696c5d006c",
+                      "ObservedHash":  "f76c1369340930c242e3f7aadb0327e0c94898fee7305def5bd3cd696c5d006c",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/it/System.ServiceModel.NetTcp.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "def9e09a93da7fc51bf6ce26855796190ebb8dfd53eb3ae56cff92836287683e",
+                      "ObservedHash":  "def9e09a93da7fc51bf6ce26855796190ebb8dfd53eb3ae56cff92836287683e",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/it/System.ServiceModel.Primitives.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "b21e80dfe58206ff6f2d2e149e53ae383620a512d5013e8ba7890fe46b24f5e2",
+                      "ObservedHash":  "b21e80dfe58206ff6f2d2e149e53ae383620a512d5013e8ba7890fe46b24f5e2",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/it/System.Web.Services.Description.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "63af7d9c0a29c4aa8d6844e2f1abc0dcc53a89ae423d195d3498d0aed8bc1cea",
+                      "ObservedHash":  "63af7d9c0a29c4aa8d6844e2f1abc0dcc53a89ae423d195d3498d0aed8bc1cea",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/ja/System.Private.ServiceModel.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "949d6fc99470cfdc66c43cd7af565d71e226d052149937d6665ef426109ad176",
+                      "ObservedHash":  "949d6fc99470cfdc66c43cd7af565d71e226d052149937d6665ef426109ad176",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/ja/System.ServiceModel.Federation.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "b119db7fb7f2d146e9f50182b1409c4b67c6054fd7538d0eca1129065888ecf8",
+                      "ObservedHash":  "b119db7fb7f2d146e9f50182b1409c4b67c6054fd7538d0eca1129065888ecf8",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/ja/System.ServiceModel.Http.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "f476a118575fea5410c098bdfb11d7ebb99c63a962c29767acb8db26c0e9c438",
+                      "ObservedHash":  "f476a118575fea5410c098bdfb11d7ebb99c63a962c29767acb8db26c0e9c438",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/ja/System.ServiceModel.NetFramingBase.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "94f4ba8c384d3b6b1a0d22d35a24d81cdf8400efa44bd041b7244c2d1e64453b",
+                      "ObservedHash":  "94f4ba8c384d3b6b1a0d22d35a24d81cdf8400efa44bd041b7244c2d1e64453b",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/ja/System.ServiceModel.NetNamedPipe.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "762e7d62987511ea23baa01037a0d5c5d9d47d6dabad53c186c09a2211a46ab5",
+                      "ObservedHash":  "762e7d62987511ea23baa01037a0d5c5d9d47d6dabad53c186c09a2211a46ab5",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/ja/System.ServiceModel.NetTcp.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "ac7175560db8a003820d9d9e00a506479aeecbc29bc17c691e0455041837650c",
+                      "ObservedHash":  "ac7175560db8a003820d9d9e00a506479aeecbc29bc17c691e0455041837650c",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/ja/System.ServiceModel.Primitives.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "3898c7a0b70685468bb62ce317a0dbf6d57fac4f303f27bf0da9cbc2ab7754a4",
+                      "ObservedHash":  "3898c7a0b70685468bb62ce317a0dbf6d57fac4f303f27bf0da9cbc2ab7754a4",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/ja/System.Web.Services.Description.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "d2e2379e5c418c2419b88978519a18e2d0b6f450b2ba76234423bdf6706de706",
+                      "ObservedHash":  "d2e2379e5c418c2419b88978519a18e2d0b6f450b2ba76234423bdf6706de706",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/ko/System.Private.ServiceModel.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "990ef9cb66dba77ae02bd0600e0714874124c3d4d0001cc1fec8e90c2103266d",
+                      "ObservedHash":  "990ef9cb66dba77ae02bd0600e0714874124c3d4d0001cc1fec8e90c2103266d",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/ko/System.ServiceModel.Federation.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "ff83197cd94ee619308b89b3aa1d8f5c388a6f1c9a57755708a558a0bbb2c74e",
+                      "ObservedHash":  "ff83197cd94ee619308b89b3aa1d8f5c388a6f1c9a57755708a558a0bbb2c74e",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/ko/System.ServiceModel.Http.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "07d1f3c4435d8424157068e74f5e31d55fbc7facd8b43bbee28dd29dafa4f5f2",
+                      "ObservedHash":  "07d1f3c4435d8424157068e74f5e31d55fbc7facd8b43bbee28dd29dafa4f5f2",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/ko/System.ServiceModel.NetFramingBase.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "f4d097633119bf1b90ef8c900399020a65a64cfefcf133130448ed825b50ee73",
+                      "ObservedHash":  "f4d097633119bf1b90ef8c900399020a65a64cfefcf133130448ed825b50ee73",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/ko/System.ServiceModel.NetNamedPipe.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "e12eae806805a9bbd357bfb91e8daa2a65f8808ade1ebac55f2babfe6744388a",
+                      "ObservedHash":  "e12eae806805a9bbd357bfb91e8daa2a65f8808ade1ebac55f2babfe6744388a",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/ko/System.ServiceModel.NetTcp.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "24bbfc53b07deb85ebcdf796c6ada805d81f9f7303aa14f67b52ab0cbce80b3b",
+                      "ObservedHash":  "24bbfc53b07deb85ebcdf796c6ada805d81f9f7303aa14f67b52ab0cbce80b3b",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/ko/System.ServiceModel.Primitives.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "09568043d9ed94477087b54fc379996ee6c2b49f940e27732b49fd85db8de920",
+                      "ObservedHash":  "09568043d9ed94477087b54fc379996ee6c2b49f940e27732b49fd85db8de920",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/ko/System.Web.Services.Description.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "e425278a5624f267324b0a6ecce90e533579e7b4b6e5f1e87066161c628b06fb",
+                      "ObservedHash":  "e425278a5624f267324b0a6ecce90e533579e7b4b6e5f1e87066161c628b06fb",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.AspNetCore.Server.Kestrel.Https.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "a69ec246214e49b555f31513a091c018c475fc950047566df5dda156910acb0f",
+                      "ObservedHash":  "a69ec246214e49b555f31513a091c018c475fc950047566df5dda156910acb0f",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "df0da5f0f3490d0b50023397b493a1a9a4ad7352d63091c0f2b3f233610e87b7",
+                      "ObservedHash":  "df0da5f0f3490d0b50023397b493a1a9a4ad7352d63091c0f2b3f233610e87b7",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.Bcl.AsyncInterfaces.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "136d5965cf4768e8420b547a8bddea882921f426c371833d558a858a2f0c235a",
+                      "ObservedHash":  "136d5965cf4768e8420b547a8bddea882921f426c371833d558a858a2f0c235a",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.Bcl.Memory.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "9b42e55304df32388df42c146a9ebdd5809376e59b34b405bc423b130f2d7b4a",
+                      "ObservedHash":  "9b42e55304df32388df42c146a9ebdd5809376e59b34b405bc423b130f2d7b4a",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.Data.SqlClient.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "ce57eda330c4b47be8d285522935d6221846873cd875e8de2674884fb132621d",
+                      "ObservedHash":  "ce57eda330c4b47be8d285522935d6221846873cd875e8de2674884fb132621d",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.Data.SqlClient.SNI.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "57adb08fde97d32a68d30c37e5c68b8cdd19b52eb4100043dffd16acdc1495de",
+                      "ObservedHash":  "57adb08fde97d32a68d30c37e5c68b8cdd19b52eb4100043dffd16acdc1495de",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.Extensions.Caching.Memory.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "a6bc869c530a2ed7573575dd61e40f0a1079ef6074251afe9701f927c5355ca8",
+                      "ObservedHash":  "a6bc869c530a2ed7573575dd61e40f0a1079ef6074251afe9701f927c5355ca8",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.Extensions.Configuration.Binder.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "beac12f7bba4e22cda2acd9ddfe944a4ed56abec414e084edd147bd5dad3c032",
+                      "ObservedHash":  "beac12f7bba4e22cda2acd9ddfe944a4ed56abec414e084edd147bd5dad3c032",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "67fa4325000db017dc0c35829b416f024f042d24efb868bcf17a895ee6500a93",
+                      "ObservedHash":  "67fa4325000db017dc0c35829b416f024f042d24efb868bcf17a895ee6500a93",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.Extensions.DependencyInjection.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "158761ce778e799949f3a3060c461b1055bb35f1f5a65eff0e42397849f09ecd",
+                      "ObservedHash":  "158761ce778e799949f3a3060c461b1055bb35f1f5a65eff0e42397849f09ecd",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.Extensions.Logging.Abstractions.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "45c22524218541717e4a0ade36847c1cda4921f5945b4975a1c78ddfe023d0b1",
+                      "ObservedHash":  "45c22524218541717e4a0ade36847c1cda4921f5945b4975a1c78ddfe023d0b1",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.Extensions.Logging.Configuration.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "372dcb44f6f9243346cb82db99bb01f27a0f3c8019902481bd45d65c311a732d",
+                      "ObservedHash":  "372dcb44f6f9243346cb82db99bb01f27a0f3c8019902481bd45d65c311a732d",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.Extensions.Logging.Console.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "d42da097bb5ef92a3eb9889726e5c231bb5d0d4ca7ca7132ed944514d52bec01",
+                      "ObservedHash":  "d42da097bb5ef92a3eb9889726e5c231bb5d0d4ca7ca7132ed944514d52bec01",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.Extensions.Logging.Debug.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "3b1dc1ada5bfeb19fe4ba5225db9c9950dca250fb2daaac259b537c5d0894a65",
+                      "ObservedHash":  "3b1dc1ada5bfeb19fe4ba5225db9c9950dca250fb2daaac259b537c5d0894a65",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.Extensions.Logging.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "b2cfba2e05ee89a91e9bc9cf112468a5f4fa05d1a77ea81c131ea656f3d133c2",
+                      "ObservedHash":  "b2cfba2e05ee89a91e9bc9cf112468a5f4fa05d1a77ea81c131ea656f3d133c2",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.Extensions.ObjectPool.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "f226697838b7b6862cbafadcfc037d7118a4a65e742f3949d3c42e948eb4de7a",
+                      "ObservedHash":  "f226697838b7b6862cbafadcfc037d7118a4a65e742f3949d3c42e948eb4de7a",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.Extensions.Options.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "5e01894cbc0661bacb8ca8f485a40d5ee4e02f28fef58007668a0276431b4693",
+                      "ObservedHash":  "5e01894cbc0661bacb8ca8f485a40d5ee4e02f28fef58007668a0276431b4693",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.Identity.Client.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "f06ac55e6f25a4c76df9afd606de04415c46ee6b6f02e2499aca72c53d51c6eb",
+                      "ObservedHash":  "f06ac55e6f25a4c76df9afd606de04415c46ee6b6f02e2499aca72c53d51c6eb",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.Identity.Client.Extensions.Msal.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "f468a086d85273e3fe20265a7997b04b5becb6fc6766445ce35b806c9dd8f17f",
+                      "ObservedHash":  "f468a086d85273e3fe20265a7997b04b5becb6fc6766445ce35b806c9dd8f17f",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.Identity.Client.NativeInterop.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "ec80c64f9b0bfc93e5a16923cbd4460b4375f80db503707686d48a655997bb22",
+                      "ObservedHash":  "ec80c64f9b0bfc93e5a16923cbd4460b4375f80db503707686d48a655997bb22",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.IdentityModel.Abstractions.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "339ad5371c3e50a47430556e3b23b8b281cd8395eaf1e074ab2be48c623ce9d2",
+                      "ObservedHash":  "339ad5371c3e50a47430556e3b23b8b281cd8395eaf1e074ab2be48c623ce9d2",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.IdentityModel.JsonWebTokens.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "fec8d2d93099087f8d98956e4321a553bd3e14dabb3d9dead0f5df6832e3de2f",
+                      "ObservedHash":  "fec8d2d93099087f8d98956e4321a553bd3e14dabb3d9dead0f5df6832e3de2f",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.IdentityModel.Logging.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "68e0ea04f1561c30b1681db0d8e0ab28a69eed19cd24c1c13e667c26f7d9b773",
+                      "ObservedHash":  "68e0ea04f1561c30b1681db0d8e0ab28a69eed19cd24c1c13e667c26f7d9b773",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.IdentityModel.Protocols.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "5339954037691d4336611ac7115462407eba97f31563e57bba5273fbd048ae60",
+                      "ObservedHash":  "5339954037691d4336611ac7115462407eba97f31563e57bba5273fbd048ae60",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "3955177c7267a663bb4257ddee0a008e1363cc96a8698bf3d18da7ee76f6da5b",
+                      "ObservedHash":  "3955177c7267a663bb4257ddee0a008e1363cc96a8698bf3d18da7ee76f6da5b",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.IdentityModel.Protocols.WsFederation.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "6fdf0c6f18172fdaf206b03209183ff4c77a2eb220cd99cdb4fff663cf0bf199",
+                      "ObservedHash":  "6fdf0c6f18172fdaf206b03209183ff4c77a2eb220cd99cdb4fff663cf0bf199",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.IdentityModel.Protocols.WsTrust.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "665cee6b59e877287f8077e57de91e01beb82b96ad6f0a43924416d7cad5cb00",
+                      "ObservedHash":  "665cee6b59e877287f8077e57de91e01beb82b96ad6f0a43924416d7cad5cb00",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.IdentityModel.Tokens.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "5657ac8b267a48b1e499ab621e328983eb4b6b6c19e980457c76f755bef5b780",
+                      "ObservedHash":  "5657ac8b267a48b1e499ab621e328983eb4b6b6c19e980457c76f755bef5b780",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.IdentityModel.Tokens.Saml.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "ba044941d42650154d6940d7976c644da322747ab3677981842e66b8c419f531",
+                      "ObservedHash":  "ba044941d42650154d6940d7976c644da322747ab3677981842e66b8c419f531",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.IdentityModel.Xml.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "845a7796b9a9d1967e054138a858130a2d7fd4e99b7516b1b99933092df737c9",
+                      "ObservedHash":  "845a7796b9a9d1967e054138a858130a2d7fd4e99b7516b1b99933092df737c9",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.OpenApi.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "aa2f8aeafd6339350de46708aeea8016d9cfedc252bd42a7ab96bcf0a87f6fb5",
+                      "ObservedHash":  "aa2f8aeafd6339350de46708aeea8016d9cfedc252bd42a7ab96bcf0a87f6fb5",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.SqlServer.Server.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "a9dca1b42bc875f966b78b2c0880e62b838f0ed6567166d7f1f07ae4b76ec4bf",
+                      "ObservedHash":  "a9dca1b42bc875f966b78b2c0880e62b838f0ed6567166d7f1f07ae4b76ec4bf",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.Web.WebView2.Core.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "4db5df6a1dc787b96f16a4363282125a6ad4c51f46f6055f08b49f621e025826",
+                      "ObservedHash":  "4db5df6a1dc787b96f16a4363282125a6ad4c51f46f6055f08b49f621e025826",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.Web.WebView2.WinForms.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "3a2d552120c741f722f661573a75c90e3fd63d7414a5bc7c94d86a0d554d4d92",
+                      "ObservedHash":  "3a2d552120c741f722f661573a75c90e3fd63d7414a5bc7c94d86a0d554d4d92",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.Web.WebView2.Wpf.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "f6346528615bf162a8d827d6fff03f02797fe6f4329e480eb66776a9c200ae93",
+                      "ObservedHash":  "f6346528615bf162a8d827d6fff03f02797fe6f4329e480eb66776a9c200ae93",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Microsoft.Xaml.Behaviors.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "acf2664d35f432ab9ea003040e5154ae8bb40a8f07d3eebee7093e97f44a96ea",
+                      "ObservedHash":  "acf2664d35f432ab9ea003040e5154ae8bb40a8f07d3eebee7093e97f44a96ea",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/msalruntime.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "613be496ad434ceef6ed29dbba64f27a2612795078977a8b07b229ebba9e9953",
+                      "ObservedHash":  "613be496ad434ceef6ed29dbba64f27a2612795078977a8b07b229ebba9e9953",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/myiTeroConnectorBase64.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "22a252e002a1b0d3e40346c3a3c7086a5a88e3748954233a5f3dc6de203661a7",
+                      "ObservedHash":  "22a252e002a1b0d3e40346c3a3c7086a5a88e3748954233a5f3dc6de203661a7",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/Newtonsoft.Json.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "72cf291d4bab0edd08a9b07c6173e1e7ad1abb7ab727fd7044bf6305d7515661",
+                      "ObservedHash":  "72cf291d4bab0edd08a9b07c6173e1e7ad1abb7ab727fd7044bf6305d7515661",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/pl/System.Private.ServiceModel.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "4f1e2a2c3f10301e50f1ce305567b533f492016dc96a1c9520a2d520b8fe5e0c",
+                      "ObservedHash":  "4f1e2a2c3f10301e50f1ce305567b533f492016dc96a1c9520a2d520b8fe5e0c",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/pl/System.ServiceModel.Federation.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "31e7aadeb3444c60d8c2adb4cb7b2175990f8f53cf63421fe456d6f6cb5b1993",
+                      "ObservedHash":  "31e7aadeb3444c60d8c2adb4cb7b2175990f8f53cf63421fe456d6f6cb5b1993",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/pl/System.ServiceModel.Http.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "5de24e0db215d521c226cfef067005980b1bb6b563875ef41462e76ec64743c4",
+                      "ObservedHash":  "5de24e0db215d521c226cfef067005980b1bb6b563875ef41462e76ec64743c4",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/pl/System.ServiceModel.NetFramingBase.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "b82aa0c3e1c56b4f6cff9c1f1554cd2ec03866621ad201c46f538a2092347b2b",
+                      "ObservedHash":  "b82aa0c3e1c56b4f6cff9c1f1554cd2ec03866621ad201c46f538a2092347b2b",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/pl/System.ServiceModel.NetNamedPipe.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "46f48b739346e168d9dfe960203f90a67758d778e2cb4817130c5a849e108048",
+                      "ObservedHash":  "46f48b739346e168d9dfe960203f90a67758d778e2cb4817130c5a849e108048",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/pl/System.ServiceModel.NetTcp.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "2475463734b14295d76f1ece8ade3589fd535dfd105e4df6515ee98c7a22e58f",
+                      "ObservedHash":  "2475463734b14295d76f1ece8ade3589fd535dfd105e4df6515ee98c7a22e58f",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/pl/System.ServiceModel.Primitives.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "57a34bd8de935e4ff6c34f9bfa4549fd5dc69f39616dfad483d4f9e436567bf5",
+                      "ObservedHash":  "57a34bd8de935e4ff6c34f9bfa4549fd5dc69f39616dfad483d4f9e436567bf5",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/pl/System.Web.Services.Description.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "6c54719d698224aa32d8f386edf27cf2137180d976dbe05abc20cb7572ae4b1e",
+                      "ObservedHash":  "6c54719d698224aa32d8f386edf27cf2137180d976dbe05abc20cb7572ae4b1e",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/pt-BR/System.Private.ServiceModel.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "10fb5b614f1f8aeb2feb1eb2e97c1ce03b6c2533214ff656bcee86b5a0a78307",
+                      "ObservedHash":  "10fb5b614f1f8aeb2feb1eb2e97c1ce03b6c2533214ff656bcee86b5a0a78307",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/pt-BR/System.ServiceModel.Federation.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "7e331ae509e3433173de45c3c40645f65272733219c5b619e6ce2ab62e632059",
+                      "ObservedHash":  "7e331ae509e3433173de45c3c40645f65272733219c5b619e6ce2ab62e632059",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/pt-BR/System.ServiceModel.Http.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "4bafcc3510d2b0e7fb118f898ef692486112b8e494df685a2340fb52bccee072",
+                      "ObservedHash":  "4bafcc3510d2b0e7fb118f898ef692486112b8e494df685a2340fb52bccee072",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/pt-BR/System.ServiceModel.NetFramingBase.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "086042e26c8480ab46ce3dfdecae0ab43e2a66311ec7b3cbc646aab32a783799",
+                      "ObservedHash":  "086042e26c8480ab46ce3dfdecae0ab43e2a66311ec7b3cbc646aab32a783799",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/pt-BR/System.ServiceModel.NetNamedPipe.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "bea11cac19e956af42acbde51369f183e9e2f560cd2aa60c4035089bbf51f51d",
+                      "ObservedHash":  "bea11cac19e956af42acbde51369f183e9e2f560cd2aa60c4035089bbf51f51d",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/pt-BR/System.ServiceModel.NetTcp.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "8b2bc6b7b130d69d91f1c032a6e459ddbd115c563c3d40c34b9da824e0e67de1",
+                      "ObservedHash":  "8b2bc6b7b130d69d91f1c032a6e459ddbd115c563c3d40c34b9da824e0e67de1",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/pt-BR/System.ServiceModel.Primitives.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "be10e87d7265a8ea588afcff997a7f4470ac53c1f8ca1e0ef0787ffc4d2e9bdb",
+                      "ObservedHash":  "be10e87d7265a8ea588afcff997a7f4470ac53c1f8ca1e0ef0787ffc4d2e9bdb",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/pt-BR/System.Web.Services.Description.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "30999e5d16cbe7c847d12107bde3d010db82d290555da972a24e123a2478a7e7",
+                      "ObservedHash":  "30999e5d16cbe7c847d12107bde3d010db82d290555da972a24e123a2478a7e7",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/ru/System.Private.ServiceModel.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "50c1f4f5e283cbf5b5a2f2a56d10dd0e2af86e0ef00496fe66278ea6b80d1533",
+                      "ObservedHash":  "50c1f4f5e283cbf5b5a2f2a56d10dd0e2af86e0ef00496fe66278ea6b80d1533",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/ru/System.ServiceModel.Federation.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "2a9adc58890804eea75b561ccd1df7b8c7f73c1bf9016e70387aa6caea92f12f",
+                      "ObservedHash":  "2a9adc58890804eea75b561ccd1df7b8c7f73c1bf9016e70387aa6caea92f12f",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/ru/System.ServiceModel.Http.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "4b14ef2bba5af4f631647a932c6b546fa5bac9bd75146b352e0201574c531207",
+                      "ObservedHash":  "4b14ef2bba5af4f631647a932c6b546fa5bac9bd75146b352e0201574c531207",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/ru/System.ServiceModel.NetFramingBase.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "34a36333d27b5a4511f960da6969e0b03fae32318082ddb37eba00a96c38aa32",
+                      "ObservedHash":  "34a36333d27b5a4511f960da6969e0b03fae32318082ddb37eba00a96c38aa32",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/ru/System.ServiceModel.NetNamedPipe.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "d43a3c25ba7d9f3913e221a51930cd694891ca304875699e091faf2e62de2601",
+                      "ObservedHash":  "d43a3c25ba7d9f3913e221a51930cd694891ca304875699e091faf2e62de2601",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/ru/System.ServiceModel.NetTcp.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "37c6a7a837599d0be0a5ce5ac6539602f8730560b6a4651a8839014601e68b1f",
+                      "ObservedHash":  "37c6a7a837599d0be0a5ce5ac6539602f8730560b6a4651a8839014601e68b1f",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/ru/System.ServiceModel.Primitives.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "54b54739deffbeec99cbd9caf28d1e17f507d9387ee015c43f2bd2ad0247e415",
+                      "ObservedHash":  "54b54739deffbeec99cbd9caf28d1e17f507d9387ee015c43f2bd2ad0247e415",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/ru/System.Web.Services.Description.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "38591285064af8b1dba0b9a1dcd8c9a152e80682af02d29cd8f9b89237214489",
+                      "ObservedHash":  "38591285064af8b1dba0b9a1dcd8c9a152e80682af02d29cd8f9b89237214489",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/runtimes/win-x64/native/WebView2Loader.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "2d64a312551930dc56612cf358fcfd23133c0596a88c3ec1c467c392ff00b493",
+                      "ObservedHash":  "2d64a312551930dc56612cf358fcfd23133c0596a88c3ec1c467c392ff00b493",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/SQLite.Interop.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "1111916dc329a13bd627b2cd90c9b2263de9923fd0bb6059c69c52332f360c37",
+                      "ObservedHash":  "1111916dc329a13bd627b2cd90c9b2263de9923fd0bb6059c69c52332f360c37",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/System.Configuration.ConfigurationManager.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "f7ea3a9618aca48fb57fd06e9102b327ab66468ceb78c96d56f7d2eee2945983",
+                      "ObservedHash":  "f7ea3a9618aca48fb57fd06e9102b327ab66468ceb78c96d56f7d2eee2945983",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/System.Data.SQLite.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "fa3d7678272b10dfa0be3d959f0aea38a58b75caf1bba06d6781218ced489620",
+                      "ObservedHash":  "fa3d7678272b10dfa0be3d959f0aea38a58b75caf1bba06d6781218ced489620",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/System.Diagnostics.EventLog.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "8343020e3752dc8fae7598816570aa30b041f835412a76dac7f65b229ed9532b",
+                      "ObservedHash":  "8343020e3752dc8fae7598816570aa30b041f835412a76dac7f65b229ed9532b",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/System.DirectoryServices.Protocols.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "362e7140d7cea4774ad66be5daaee1bfc1e6313265761fe01b25b1b69b3f7859",
+                      "ObservedHash":  "362e7140d7cea4774ad66be5daaee1bfc1e6313265761fe01b25b1b69b3f7859",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/System.IdentityModel.Tokens.Jwt.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "2772c265c21b24567d64f22d045168349e56073e89594c9ec3433a3c9db8839a",
+                      "ObservedHash":  "2772c265c21b24567d64f22d045168349e56073e89594c9ec3433a3c9db8839a",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/System.Management.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "b2d6e7e991dc9ef154b29f4966f04fd8ed4ebb2c1d1242ea1d5f3e90f8ae5143",
+                      "ObservedHash":  "b2d6e7e991dc9ef154b29f4966f04fd8ed4ebb2c1d1242ea1d5f3e90f8ae5143",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/System.Memory.Data.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "293ca5d86358fb2ce00da02c63eefcb344689fc0c636b61c97c3f1b15a80aa51",
+                      "ObservedHash":  "293ca5d86358fb2ce00da02c63eefcb344689fc0c636b61c97c3f1b15a80aa51",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/System.Net.WebSockets.WebSocketProtocol.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "4d0e4aec02402990ae7ccdffa27d93ef14dae9ff672f0a348544b52641abfe1b",
+                      "ObservedHash":  "4d0e4aec02402990ae7ccdffa27d93ef14dae9ff672f0a348544b52641abfe1b",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/System.Private.ServiceModel.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "2d1f4c9564aee3cb1c38cb7c3057e88bff5ded9b20e928209f1d3284776b49ff",
+                      "ObservedHash":  "2d1f4c9564aee3cb1c38cb7c3057e88bff5ded9b20e928209f1d3284776b49ff",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/System.Runtime.Caching.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "2ca88a05ea536c3b9507f52378aaa69b2e67dd3c4dad2fa36426245818f6cc77",
+                      "ObservedHash":  "2ca88a05ea536c3b9507f52378aaa69b2e67dd3c4dad2fa36426245818f6cc77",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/System.Security.Cryptography.Pkcs.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "d8e4b733fbaec1fe0e808fd6391479f190b170df03e309c5f07dc85445447d22",
+                      "ObservedHash":  "d8e4b733fbaec1fe0e808fd6391479f190b170df03e309c5f07dc85445447d22",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/System.Security.Cryptography.Xml.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "10dafe8e0c95165a5435cfabf552d905bbce9636061393b4cb2533f24d88ab45",
+                      "ObservedHash":  "10dafe8e0c95165a5435cfabf552d905bbce9636061393b4cb2533f24d88ab45",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/System.ServiceModel.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "7b25feeecf406c6fd00fea3be98e5b0173506da4749b67010fd47ebdc5b05d4d",
+                      "ObservedHash":  "7b25feeecf406c6fd00fea3be98e5b0173506da4749b67010fd47ebdc5b05d4d",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/System.ServiceModel.Duplex.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "8cde3443ef4d0360d7d392a353d91b1270ded64345e3ccf611e152d4b25a9978",
+                      "ObservedHash":  "8cde3443ef4d0360d7d392a353d91b1270ded64345e3ccf611e152d4b25a9978",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/System.ServiceModel.Federation.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "7db587d95e9edbf07236250b73f5d34f0691d68e8e12b27f4060c07951dafb27",
+                      "ObservedHash":  "7db587d95e9edbf07236250b73f5d34f0691d68e8e12b27f4060c07951dafb27",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/System.ServiceModel.Http.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "0fa24d7da9b0189622ea983590d488b5e8473dac7eab76b34ab2268e4bed8f32",
+                      "ObservedHash":  "0fa24d7da9b0189622ea983590d488b5e8473dac7eab76b34ab2268e4bed8f32",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/System.ServiceModel.NetFramingBase.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "9a7061b5102a252f6883cee596ce97b3dec4f7104287e88ee03712070fcfcc92",
+                      "ObservedHash":  "9a7061b5102a252f6883cee596ce97b3dec4f7104287e88ee03712070fcfcc92",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/System.ServiceModel.NetNamedPipe.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "6f506d4cbe095d45f4bdcb74f579ac4548003d289d05bb72db23353b108978b1",
+                      "ObservedHash":  "6f506d4cbe095d45f4bdcb74f579ac4548003d289d05bb72db23353b108978b1",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/System.ServiceModel.NetTcp.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "3ef2c1ddc987d3050238bc6660f463be97f4f73a41d7e1d6990c1dcb81aa7918",
+                      "ObservedHash":  "3ef2c1ddc987d3050238bc6660f463be97f4f73a41d7e1d6990c1dcb81aa7918",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/System.ServiceModel.Primitives.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "21804e970c13be46fd3977287f0e6e97e54d939a73dd3a2f8a1e099677f23b24",
+                      "ObservedHash":  "21804e970c13be46fd3977287f0e6e97e54d939a73dd3a2f8a1e099677f23b24",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/System.ServiceModel.Security.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "0d1336b177798ac63c13e0b22acd40cb16199bb255eddf7c1c1dea12660a85f1",
+                      "ObservedHash":  "0d1336b177798ac63c13e0b22acd40cb16199bb255eddf7c1c1dea12660a85f1",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/System.Web.Services.Description.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "bbb78dc11a16f7de3f599c4c6d75c4b117c95f790ea2a07e223ce1d8b32ff26f",
+                      "ObservedHash":  "bbb78dc11a16f7de3f599c4c6d75c4b117c95f790ea2a07e223ce1d8b32ff26f",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/tr/System.Private.ServiceModel.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "71793ce55706eb2492f010c206b8c67d135f271897b63a3909af8bba0921bc37",
+                      "ObservedHash":  "71793ce55706eb2492f010c206b8c67d135f271897b63a3909af8bba0921bc37",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/tr/System.ServiceModel.Federation.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "c981d7492d4516b86a193d77556a6f2584b68bfa9d2c6ff75f2e53ae1de97fb2",
+                      "ObservedHash":  "c981d7492d4516b86a193d77556a6f2584b68bfa9d2c6ff75f2e53ae1de97fb2",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/tr/System.ServiceModel.Http.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "d90040d3ac3a482a7222a692ddf9d7eae3880074fc18694b34a580377a1e5237",
+                      "ObservedHash":  "d90040d3ac3a482a7222a692ddf9d7eae3880074fc18694b34a580377a1e5237",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/tr/System.ServiceModel.NetFramingBase.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "60f34fc58af6cb1b667cc8ec7ae00c9daccae1147e0165c76953444a93006e27",
+                      "ObservedHash":  "60f34fc58af6cb1b667cc8ec7ae00c9daccae1147e0165c76953444a93006e27",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/tr/System.ServiceModel.NetNamedPipe.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "dda204d0dc6a5f83e2666d961453433e69e5653a3e712347fc841f989a84f35b",
+                      "ObservedHash":  "dda204d0dc6a5f83e2666d961453433e69e5653a3e712347fc841f989a84f35b",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/tr/System.ServiceModel.NetTcp.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "32482b6b8157fd92323eef46cc592cd3042a738c60b5ccc396db2d2f811e5e37",
+                      "ObservedHash":  "32482b6b8157fd92323eef46cc592cd3042a738c60b5ccc396db2d2f811e5e37",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/tr/System.ServiceModel.Primitives.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "d92a9b6e84de63deae69d1178c8969fbda7bbe0be93dce527ec650f71a9424fa",
+                      "ObservedHash":  "d92a9b6e84de63deae69d1178c8969fbda7bbe0be93dce527ec650f71a9424fa",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/tr/System.Web.Services.Description.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "de5d2c81c205e342e5980686068b3def1027165c53d7d2953b7a0b8c9ef87a17",
+                      "ObservedHash":  "de5d2c81c205e342e5980686068b3def1027165c53d7d2953b7a0b8c9ef87a17",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/WebView2Loader.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "2d64a312551930dc56612cf358fcfd23133c0596a88c3ec1c467c392ff00b493",
+                      "ObservedHash":  "2d64a312551930dc56612cf358fcfd23133c0596a88c3ec1c467c392ff00b493",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/WPFToothSelectionControlv2Base.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "22a252e002a1b0d3e40346c3a3c7086a5a88e3748954233a5f3dc6de203661a7",
+                      "ObservedHash":  "22a252e002a1b0d3e40346c3a3c7086a5a88e3748954233a5f3dc6de203661a7",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/zh-Hans/System.Private.ServiceModel.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "5787910a1a1918a282af12108105ff11b742f58ad0165b444b528a5222bb97e4",
+                      "ObservedHash":  "5787910a1a1918a282af12108105ff11b742f58ad0165b444b528a5222bb97e4",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/zh-Hans/System.ServiceModel.Federation.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "e8f1a969b8aa97ad9d2fe0d45e31e6d982058af1ae3d40c2064202ea33b5faf2",
+                      "ObservedHash":  "e8f1a969b8aa97ad9d2fe0d45e31e6d982058af1ae3d40c2064202ea33b5faf2",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/zh-Hans/System.ServiceModel.Http.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "0cf264da3c0304b65abd44926f80137c876934b8b846348c1ba21e03b12a9890",
+                      "ObservedHash":  "0cf264da3c0304b65abd44926f80137c876934b8b846348c1ba21e03b12a9890",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/zh-Hans/System.ServiceModel.NetFramingBase.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "a2cd37de38ee3f833d87cc8af22cb9569bb7a6d5682780f9d6ec7ca8be98087f",
+                      "ObservedHash":  "a2cd37de38ee3f833d87cc8af22cb9569bb7a6d5682780f9d6ec7ca8be98087f",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/zh-Hans/System.ServiceModel.NetNamedPipe.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "0bdab63629c6abb9086e054e9e5e87e4f9be3ea4a0269fdbcf5c4b1e72bfe650",
+                      "ObservedHash":  "0bdab63629c6abb9086e054e9e5e87e4f9be3ea4a0269fdbcf5c4b1e72bfe650",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/zh-Hans/System.ServiceModel.NetTcp.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "e0359c1455e7ed3bc13f228feb9e0e6e3a32c057697a5017718b793e75a9efa2",
+                      "ObservedHash":  "e0359c1455e7ed3bc13f228feb9e0e6e3a32c057697a5017718b793e75a9efa2",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/zh-Hans/System.ServiceModel.Primitives.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "6ed7c7f90f6097dd57f1fa3761d8734e79609e8a41c839f406002f2d33fd60ac",
+                      "ObservedHash":  "6ed7c7f90f6097dd57f1fa3761d8734e79609e8a41c839f406002f2d33fd60ac",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/zh-Hans/System.Web.Services.Description.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "64d0577031e7a4a98f81ba996cc0f8fd7778d81665041a64f8a85851d478bc17",
+                      "ObservedHash":  "64d0577031e7a4a98f81ba996cc0f8fd7778d81665041a64f8a85851d478bc17",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/zh-Hant/System.Private.ServiceModel.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "2252ac00e816c647f2635b48394b58270801ff9f63ce31ba56fa53b68566d718",
+                      "ObservedHash":  "2252ac00e816c647f2635b48394b58270801ff9f63ce31ba56fa53b68566d718",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/zh-Hant/System.ServiceModel.Federation.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "13eab44c5bd2652644a4ce45c57758a45008afc34b1dddd53c659773d0e464f5",
+                      "ObservedHash":  "13eab44c5bd2652644a4ce45c57758a45008afc34b1dddd53c659773d0e464f5",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/zh-Hant/System.ServiceModel.Http.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "5aade5825ee0c29ec198f888796ae6acb140c6d95d1b0a689aba62bcbf398299",
+                      "ObservedHash":  "5aade5825ee0c29ec198f888796ae6acb140c6d95d1b0a689aba62bcbf398299",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/zh-Hant/System.ServiceModel.NetFramingBase.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "d1824a5c908f2049c772cfcfdee9b2272962512875b0b6c9101a5a89953c5c76",
+                      "ObservedHash":  "d1824a5c908f2049c772cfcfdee9b2272962512875b0b6c9101a5a89953c5c76",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/zh-Hant/System.ServiceModel.NetNamedPipe.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "9ac08700048bd6da7c754145bb1260defee08fc94ccc4da82be3916f1f360adb",
+                      "ObservedHash":  "9ac08700048bd6da7c754145bb1260defee08fc94ccc4da82be3916f1f360adb",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/zh-Hant/System.ServiceModel.NetTcp.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "a3ed61f800e84ae4eb2fe3ccaa868eb5c92091e57b778fd4f729ce3e5fedce0c",
+                      "ObservedHash":  "a3ed61f800e84ae4eb2fe3ccaa868eb5c92091e57b778fd4f729ce3e5fedce0c",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/zh-Hant/System.ServiceModel.Primitives.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "c469c5b093666b6400c82c32b4825150f4d9dc0f2f6363db2d564086f367fbe2",
+                      "ObservedHash":  "c469c5b093666b6400c82c32b4825150f4d9dc0f2f6363db2d564086f367fbe2",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "DentalDB/bin/zh-Hant/System.Web.Services.Description.resources.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "d59643e699125c958ac81b6a87dd592f1f102d21477ef2646b68825f0d3ded25",
+                      "ObservedHash":  "d59643e699125c958ac81b6a87dd592f1f102d21477ef2646b68825f0d3ded25",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/BouncyCastle.Cryptography.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "e5eeaf6d263c493619982fd3638e6135077311d08c961e1fe128f9107d29ebc6",
+                      "ObservedHash":  "e5eeaf6d263c493619982fd3638e6135077311d08c961e1fe128f9107d29ebc6",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/DentalshareHelperLibBase.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "a7aef450cb6051152ef61523862891e48a59e966c26c43a0abea16d5f6d7fea7",
+                      "ObservedHash":  "a7aef450cb6051152ef61523862891e48a59e966c26c43a0abea16d5f6d7fea7",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/DentalshareHelperLibBase64.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "22a252e002a1b0d3e40346c3a3c7086a5a88e3748954233a5f3dc6de203661a7",
+                      "ObservedHash":  "22a252e002a1b0d3e40346c3a3c7086a5a88e3748954233a5f3dc6de203661a7",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Extensions.Configuration.Abstractions.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "fefcdb267a73099cb90e5af56b5ef2bca59bed974339b3a6810352bde23537a6",
+                      "ObservedHash":  "fefcdb267a73099cb90e5af56b5ef2bca59bed974339b3a6810352bde23537a6",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Extensions.Configuration.Binder.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "5a47750f5c8eb91a203a743abbdc27c7feceeb2218d39445df6560629477eec9",
+                      "ObservedHash":  "5a47750f5c8eb91a203a743abbdc27c7feceeb2218d39445df6560629477eec9",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Extensions.Configuration.CommandLine.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "688ef791d4bb2e84839cfb28ec83772d561d958f6d0b20ca28be1c6efc9ea5f7",
+                      "ObservedHash":  "688ef791d4bb2e84839cfb28ec83772d561d958f6d0b20ca28be1c6efc9ea5f7",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Extensions.Configuration.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "b5cd9da2c3364a5b201cecb0c80e25227d27ba44d96343d2894ff8ef3fd81550",
+                      "ObservedHash":  "b5cd9da2c3364a5b201cecb0c80e25227d27ba44d96343d2894ff8ef3fd81550",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "797b3034fd173caff0850cd580428a5f4aeb7da27bf03369ad7f2b0996019399",
+                      "ObservedHash":  "797b3034fd173caff0850cd580428a5f4aeb7da27bf03369ad7f2b0996019399",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Extensions.Configuration.FileExtensions.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "d90fd867b38c134678d31c4354f4514b9f3efff494f7e9eecac8df6ef07a77c9",
+                      "ObservedHash":  "d90fd867b38c134678d31c4354f4514b9f3efff494f7e9eecac8df6ef07a77c9",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Extensions.Configuration.Json.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "96920caa680f7583888e3387e17950bb9f39f6df8e24fcb4d356454dd2b8e494",
+                      "ObservedHash":  "96920caa680f7583888e3387e17950bb9f39f6df8e24fcb4d356454dd2b8e494",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Extensions.Configuration.UserSecrets.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "a415ecb7ebdf4f6598c19fbbdf54899ce488477e1c81972ba575910efb54a0c4",
+                      "ObservedHash":  "a415ecb7ebdf4f6598c19fbbdf54899ce488477e1c81972ba575910efb54a0c4",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "a0106a638facae621f870eda720cb6c980c1d5d49c2f4351134e3fe043b9291b",
+                      "ObservedHash":  "a0106a638facae621f870eda720cb6c980c1d5d49c2f4351134e3fe043b9291b",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Extensions.DependencyInjection.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "8d6e7b64cce554f0a0fbdb2ba80745895fa0b4e6cc378b9fedfe8ce86f0d8ae4",
+                      "ObservedHash":  "8d6e7b64cce554f0a0fbdb2ba80745895fa0b4e6cc378b9fedfe8ce86f0d8ae4",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Extensions.Diagnostics.Abstractions.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "bea3cf225599b05a521902e12e23de6a2309937dfb3763ccd2cea62ad2c4fe37",
+                      "ObservedHash":  "bea3cf225599b05a521902e12e23de6a2309937dfb3763ccd2cea62ad2c4fe37",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Extensions.Diagnostics.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "5c83650f1c0a15c8e3831a4d48008b3baa338505a3be48780a3d86c2cd4662a0",
+                      "ObservedHash":  "5c83650f1c0a15c8e3831a4d48008b3baa338505a3be48780a3d86c2cd4662a0",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Extensions.FileProviders.Abstractions.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "f08b1f597abb3647ab6e844282ded763e6078dbef6dd54b9d956ca419fac42fe",
+                      "ObservedHash":  "f08b1f597abb3647ab6e844282ded763e6078dbef6dd54b9d956ca419fac42fe",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Extensions.FileProviders.Physical.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "9f67076c79a953f5068c0792114f9722527cfa17ed7414c73fd14833bfe59918",
+                      "ObservedHash":  "9f67076c79a953f5068c0792114f9722527cfa17ed7414c73fd14833bfe59918",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Extensions.FileSystemGlobbing.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "ed0855b522f09b5a9ddbb85de62042c25e07d10044086da8620c845de41e473c",
+                      "ObservedHash":  "ed0855b522f09b5a9ddbb85de62042c25e07d10044086da8620c845de41e473c",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Extensions.Hosting.Abstractions.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "1765c6147ed43b7ce3c0e98db3367791a3821def124775015bdce6278f9295c5",
+                      "ObservedHash":  "1765c6147ed43b7ce3c0e98db3367791a3821def124775015bdce6278f9295c5",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Extensions.Hosting.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "746b030485bcf78deb83f6faae9edad0dc803fb8fa1ee6dfe57112a96ac682dc",
+                      "ObservedHash":  "746b030485bcf78deb83f6faae9edad0dc803fb8fa1ee6dfe57112a96ac682dc",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Extensions.Logging.Abstractions.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "29e6bfaf5ce079ad4d70dc547d966038992a7428df6e726084eb9010ec837715",
+                      "ObservedHash":  "29e6bfaf5ce079ad4d70dc547d966038992a7428df6e726084eb9010ec837715",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Extensions.Logging.Configuration.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "4bd1245656bef4eab6b6b503ebff486210f7c05c17097ac247c5a0e824f118b6",
+                      "ObservedHash":  "4bd1245656bef4eab6b6b503ebff486210f7c05c17097ac247c5a0e824f118b6",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Extensions.Logging.Console.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "b6836602e2139d6e3e37d490f569b8e7bd82559c492b00f58de811e003f73b68",
+                      "ObservedHash":  "b6836602e2139d6e3e37d490f569b8e7bd82559c492b00f58de811e003f73b68",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Extensions.Logging.Debug.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "798b0714e3dfe8e80d12e2faee8257bb5d05e4432c975cc510cb83b33ff60048",
+                      "ObservedHash":  "798b0714e3dfe8e80d12e2faee8257bb5d05e4432c975cc510cb83b33ff60048",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Extensions.Logging.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "4330a5efe9d110afb7f8e567d5b43eee976e0f7f6802d13a211b65d747529179",
+                      "ObservedHash":  "4330a5efe9d110afb7f8e567d5b43eee976e0f7f6802d13a211b65d747529179",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Extensions.Logging.EventLog.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "1182928ecaa6ab2376bfb9c2460ec2bc69647a9ce76744d39fafe5073262774e",
+                      "ObservedHash":  "1182928ecaa6ab2376bfb9c2460ec2bc69647a9ce76744d39fafe5073262774e",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Extensions.Logging.EventSource.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "e8cde7ad083dc0620e5a3a89a7cd2155de6ff3113f9f74b5d576fd17f912416e",
+                      "ObservedHash":  "e8cde7ad083dc0620e5a3a89a7cd2155de6ff3113f9f74b5d576fd17f912416e",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "b9ea7bb70bfecf5c649f2559300fce232729257cfdb4221dc96f1ea778227353",
+                      "ObservedHash":  "b9ea7bb70bfecf5c649f2559300fce232729257cfdb4221dc96f1ea778227353",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Extensions.Options.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "5f9b0e589f1ce9ca656588cd92cc0bd53803fdfad258fb2916aaa14aedce682c",
+                      "ObservedHash":  "5f9b0e589f1ce9ca656588cd92cc0bd53803fdfad258fb2916aaa14aedce682c",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Extensions.Primitives.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "446ff16e903e7479558816e213a3adee9a1c1adad65a56d853801b10933e29d7",
+                      "ObservedHash":  "446ff16e903e7479558816e213a3adee9a1c1adad65a56d853801b10933e29d7",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.IdentityModel.Abstractions.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "f4694d23f05cc0263abbcb536d132e243bc9c175ae642387fa98652b880a4be0",
+                      "ObservedHash":  "f4694d23f05cc0263abbcb536d132e243bc9c175ae642387fa98652b880a4be0",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.IdentityModel.JsonWebTokens.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "58277455122589b39c20e94f403fca7d3abcf5488bd9d8702ac75d03770f49f8",
+                      "ObservedHash":  "58277455122589b39c20e94f403fca7d3abcf5488bd9d8702ac75d03770f49f8",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.IdentityModel.Logging.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "5de12f537fa96ec3d47e1dabcf348807da1400f0e0f5654c4b6903310d691c9a",
+                      "ObservedHash":  "5de12f537fa96ec3d47e1dabcf348807da1400f0e0f5654c4b6903310d691c9a",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.IdentityModel.Tokens.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "929dd15f4a58930f21ec9eb95600775348ee63a059f6547a748607ede7521a4c",
+                      "ObservedHash":  "929dd15f4a58930f21ec9eb95600775348ee63a059f6547a748607ede7521a4c",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Web.WebView2.Core.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "4db5df6a1dc787b96f16a4363282125a6ad4c51f46f6055f08b49f621e025826",
+                      "ObservedHash":  "4db5df6a1dc787b96f16a4363282125a6ad4c51f46f6055f08b49f621e025826",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Web.WebView2.WinForms.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "3a2d552120c741f722f661573a75c90e3fd63d7414a5bc7c94d86a0d554d4d92",
+                      "ObservedHash":  "3a2d552120c741f722f661573a75c90e3fd63d7414a5bc7c94d86a0d554d4d92",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Web.WebView2.Wpf.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "f6346528615bf162a8d827d6fff03f02797fe6f4329e480eb66776a9c200ae93",
+                      "ObservedHash":  "f6346528615bf162a8d827d6fff03f02797fe6f4329e480eb66776a9c200ae93",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Microsoft.Xaml.Behaviors.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "acf2664d35f432ab9ea003040e5154ae8bb40a8f07d3eebee7093e97f44a96ea",
+                      "ObservedHash":  "acf2664d35f432ab9ea003040e5154ae8bb40a8f07d3eebee7093e97f44a96ea",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/Newtonsoft.Json.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "72cf291d4bab0edd08a9b07c6173e1e7ad1abb7ab727fd7044bf6305d7515661",
+                      "ObservedHash":  "72cf291d4bab0edd08a9b07c6173e1e7ad1abb7ab727fd7044bf6305d7515661",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/SQLite.Interop.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "9309fb2a3f326d0f2cc3f2ab837cfd02e4f8cb6b923b3b2be265591fd38f4961",
+                      "ObservedHash":  "9309fb2a3f326d0f2cc3f2ab837cfd02e4f8cb6b923b3b2be265591fd38f4961",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/System.Data.SQLite.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "534db30a067e362977ab8b944de1e624066016e09bf0964a5be237fe10a68ede",
+                      "ObservedHash":  "534db30a067e362977ab8b944de1e624066016e09bf0964a5be237fe10a68ede",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/System.IdentityModel.Tokens.Jwt.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "177d4c2d2a5891ef834c46990aa76b81ed7a198f70d78229f7374c0706ba0166",
+                      "ObservedHash":  "177d4c2d2a5891ef834c46990aa76b81ed7a198f70d78229f7374c0706ba0166",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/System.Management.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "aa474c96b9fd17cb3580d89bb8eb716cb1407c89026b5e8180402666eeeb766a",
+                      "ObservedHash":  "aa474c96b9fd17cb3580d89bb8eb716cb1407c89026b5e8180402666eeeb766a",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/TransferTo3DPrinterBase64.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "22a252e002a1b0d3e40346c3a3c7086a5a88e3748954233a5f3dc6de203661a7",
+                      "ObservedHash":  "22a252e002a1b0d3e40346c3a3c7086a5a88e3748954233a5f3dc6de203661a7",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "exoprint/bin/WebView2Loader.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "2d64a312551930dc56612cf358fcfd23133c0596a88c3ec1c467c392ff00b493",
+                      "ObservedHash":  "2d64a312551930dc56612cf358fcfd23133c0596a88c3ec1c467c392ff00b493",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Extensions.Configuration.Abstractions.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "fefcdb267a73099cb90e5af56b5ef2bca59bed974339b3a6810352bde23537a6",
+                      "ObservedHash":  "fefcdb267a73099cb90e5af56b5ef2bca59bed974339b3a6810352bde23537a6",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Extensions.Configuration.Binder.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "5a47750f5c8eb91a203a743abbdc27c7feceeb2218d39445df6560629477eec9",
+                      "ObservedHash":  "5a47750f5c8eb91a203a743abbdc27c7feceeb2218d39445df6560629477eec9",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Extensions.Configuration.CommandLine.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "688ef791d4bb2e84839cfb28ec83772d561d958f6d0b20ca28be1c6efc9ea5f7",
+                      "ObservedHash":  "688ef791d4bb2e84839cfb28ec83772d561d958f6d0b20ca28be1c6efc9ea5f7",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Extensions.Configuration.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "b5cd9da2c3364a5b201cecb0c80e25227d27ba44d96343d2894ff8ef3fd81550",
+                      "ObservedHash":  "b5cd9da2c3364a5b201cecb0c80e25227d27ba44d96343d2894ff8ef3fd81550",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "797b3034fd173caff0850cd580428a5f4aeb7da27bf03369ad7f2b0996019399",
+                      "ObservedHash":  "797b3034fd173caff0850cd580428a5f4aeb7da27bf03369ad7f2b0996019399",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Extensions.Configuration.FileExtensions.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "d90fd867b38c134678d31c4354f4514b9f3efff494f7e9eecac8df6ef07a77c9",
+                      "ObservedHash":  "d90fd867b38c134678d31c4354f4514b9f3efff494f7e9eecac8df6ef07a77c9",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Extensions.Configuration.Json.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "96920caa680f7583888e3387e17950bb9f39f6df8e24fcb4d356454dd2b8e494",
+                      "ObservedHash":  "96920caa680f7583888e3387e17950bb9f39f6df8e24fcb4d356454dd2b8e494",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Extensions.Configuration.UserSecrets.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "a415ecb7ebdf4f6598c19fbbdf54899ce488477e1c81972ba575910efb54a0c4",
+                      "ObservedHash":  "a415ecb7ebdf4f6598c19fbbdf54899ce488477e1c81972ba575910efb54a0c4",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "a0106a638facae621f870eda720cb6c980c1d5d49c2f4351134e3fe043b9291b",
+                      "ObservedHash":  "a0106a638facae621f870eda720cb6c980c1d5d49c2f4351134e3fe043b9291b",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Extensions.DependencyInjection.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "8d6e7b64cce554f0a0fbdb2ba80745895fa0b4e6cc378b9fedfe8ce86f0d8ae4",
+                      "ObservedHash":  "8d6e7b64cce554f0a0fbdb2ba80745895fa0b4e6cc378b9fedfe8ce86f0d8ae4",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Extensions.DependencyModel.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "73e69da2a4462dcdc89136a741c41631a21baf5bd1362d8b273eeb8aa451f153",
+                      "ObservedHash":  "73e69da2a4462dcdc89136a741c41631a21baf5bd1362d8b273eeb8aa451f153",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Extensions.Diagnostics.Abstractions.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "bea3cf225599b05a521902e12e23de6a2309937dfb3763ccd2cea62ad2c4fe37",
+                      "ObservedHash":  "bea3cf225599b05a521902e12e23de6a2309937dfb3763ccd2cea62ad2c4fe37",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Extensions.Diagnostics.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "5c83650f1c0a15c8e3831a4d48008b3baa338505a3be48780a3d86c2cd4662a0",
+                      "ObservedHash":  "5c83650f1c0a15c8e3831a4d48008b3baa338505a3be48780a3d86c2cd4662a0",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Extensions.FileProviders.Abstractions.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "f08b1f597abb3647ab6e844282ded763e6078dbef6dd54b9d956ca419fac42fe",
+                      "ObservedHash":  "f08b1f597abb3647ab6e844282ded763e6078dbef6dd54b9d956ca419fac42fe",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Extensions.FileProviders.Physical.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "9f67076c79a953f5068c0792114f9722527cfa17ed7414c73fd14833bfe59918",
+                      "ObservedHash":  "9f67076c79a953f5068c0792114f9722527cfa17ed7414c73fd14833bfe59918",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Extensions.FileSystemGlobbing.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "ed0855b522f09b5a9ddbb85de62042c25e07d10044086da8620c845de41e473c",
+                      "ObservedHash":  "ed0855b522f09b5a9ddbb85de62042c25e07d10044086da8620c845de41e473c",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Extensions.Hosting.Abstractions.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "1765c6147ed43b7ce3c0e98db3367791a3821def124775015bdce6278f9295c5",
+                      "ObservedHash":  "1765c6147ed43b7ce3c0e98db3367791a3821def124775015bdce6278f9295c5",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Extensions.Hosting.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "746b030485bcf78deb83f6faae9edad0dc803fb8fa1ee6dfe57112a96ac682dc",
+                      "ObservedHash":  "746b030485bcf78deb83f6faae9edad0dc803fb8fa1ee6dfe57112a96ac682dc",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Extensions.Logging.Abstractions.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "29e6bfaf5ce079ad4d70dc547d966038992a7428df6e726084eb9010ec837715",
+                      "ObservedHash":  "29e6bfaf5ce079ad4d70dc547d966038992a7428df6e726084eb9010ec837715",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Extensions.Logging.Configuration.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "4bd1245656bef4eab6b6b503ebff486210f7c05c17097ac247c5a0e824f118b6",
+                      "ObservedHash":  "4bd1245656bef4eab6b6b503ebff486210f7c05c17097ac247c5a0e824f118b6",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Extensions.Logging.Console.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "b6836602e2139d6e3e37d490f569b8e7bd82559c492b00f58de811e003f73b68",
+                      "ObservedHash":  "b6836602e2139d6e3e37d490f569b8e7bd82559c492b00f58de811e003f73b68",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Extensions.Logging.Debug.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "798b0714e3dfe8e80d12e2faee8257bb5d05e4432c975cc510cb83b33ff60048",
+                      "ObservedHash":  "798b0714e3dfe8e80d12e2faee8257bb5d05e4432c975cc510cb83b33ff60048",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Extensions.Logging.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "4330a5efe9d110afb7f8e567d5b43eee976e0f7f6802d13a211b65d747529179",
+                      "ObservedHash":  "4330a5efe9d110afb7f8e567d5b43eee976e0f7f6802d13a211b65d747529179",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Extensions.Logging.EventLog.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "1182928ecaa6ab2376bfb9c2460ec2bc69647a9ce76744d39fafe5073262774e",
+                      "ObservedHash":  "1182928ecaa6ab2376bfb9c2460ec2bc69647a9ce76744d39fafe5073262774e",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Extensions.Logging.EventSource.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "e8cde7ad083dc0620e5a3a89a7cd2155de6ff3113f9f74b5d576fd17f912416e",
+                      "ObservedHash":  "e8cde7ad083dc0620e5a3a89a7cd2155de6ff3113f9f74b5d576fd17f912416e",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "b9ea7bb70bfecf5c649f2559300fce232729257cfdb4221dc96f1ea778227353",
+                      "ObservedHash":  "b9ea7bb70bfecf5c649f2559300fce232729257cfdb4221dc96f1ea778227353",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Extensions.Options.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "5f9b0e589f1ce9ca656588cd92cc0bd53803fdfad258fb2916aaa14aedce682c",
+                      "ObservedHash":  "5f9b0e589f1ce9ca656588cd92cc0bd53803fdfad258fb2916aaa14aedce682c",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Extensions.Primitives.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "446ff16e903e7479558816e213a3adee9a1c1adad65a56d853801b10933e29d7",
+                      "ObservedHash":  "446ff16e903e7479558816e213a3adee9a1c1adad65a56d853801b10933e29d7",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Web.WebView2.Core.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "724fea6f10f8efe0312c33756682756fb417b319595db369bdc563ad6c23a609",
+                      "ObservedHash":  "724fea6f10f8efe0312c33756682756fb417b319595db369bdc563ad6c23a609",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Web.WebView2.WinForms.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "66a134bdbad81e49a6c9c19bbad66e7ef7bb982f2cb3e961cd3730d19e6fc9c1",
+                      "ObservedHash":  "66a134bdbad81e49a6c9c19bbad66e7ef7bb982f2cb3e961cd3730d19e6fc9c1",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Web.WebView2.Wpf.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "374c7f968ec428c3868b342b60bcbe161dec48c99b50b726768b98292a268b47",
+                      "ObservedHash":  "374c7f968ec428c3868b342b60bcbe161dec48c99b50b726768b98292a268b47",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Microsoft.Xaml.Behaviors.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "acf2664d35f432ab9ea003040e5154ae8bb40a8f07d3eebee7093e97f44a96ea",
+                      "ObservedHash":  "acf2664d35f432ab9ea003040e5154ae8bb40a8f07d3eebee7093e97f44a96ea",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/Newtonsoft.Json.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "72cf291d4bab0edd08a9b07c6173e1e7ad1abb7ab727fd7044bf6305d7515661",
+                      "ObservedHash":  "72cf291d4bab0edd08a9b07c6173e1e7ad1abb7ab727fd7044bf6305d7515661",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/runtimes/win-x64/native/WebView2Loader.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "6d0804b37a498a3ecdd317896f6c9e9c759566574e86a8e045fead5e9cb20106",
+                      "ObservedHash":  "6d0804b37a498a3ecdd317896f6c9e9c759566574e86a8e045fead5e9cb20106",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/System.Management.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "aa474c96b9fd17cb3580d89bb8eb716cb1407c89026b5e8180402666eeeb766a",
+                      "ObservedHash":  "aa474c96b9fd17cb3580d89bb8eb716cb1407c89026b5e8180402666eeeb766a",
+                      "CatalogHashMatches":  true
+                  },
+                  {
+                      "RelativePath":  "LibraryManager/bin/WebView2Loader.dll",
+                      "LifetimeConstrainedStatus":  "0x800B0101",
+                      "DefaultTimestampPolicyStatus":  "0x00000000",
+                      "SignatureValidAgainstLocalPolicy":  true,
+                      "CatalogHash":  "6d0804b37a498a3ecdd317896f6c9e9c759566574e86a8e045fead5e9cb20106",
+                      "ObservedHash":  "6d0804b37a498a3ecdd317896f6c9e9c759566574e86a8e045fead5e9cb20106",
+                      "CatalogHashMatches":  true
+                  }
+              ]
+}

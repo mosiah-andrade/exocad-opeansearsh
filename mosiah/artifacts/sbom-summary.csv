@@ -1,0 +1,5 @@
+﻿"SBOM","SHA256","Format","SpecVersion","Subject","SubjectVersion","ComponentCount","DependencyEdgesDeclared","Tool"
+"DentalCADApp/DentalCADApp-generic-3.3-SR1-64bit-net8-2026-01-16T08-28-9512-release3.3.sbom.json","28bfbf97102301d01c4c013896bd63d8f86a962dcb113c56adc451393227c24d","CycloneDX","1.6","DentalCADApp","3.3","166","False","SCALIBR"
+"DentalDB/DentalDB-generic-3.3-SR1-64bit-net8-2026-01-16T08-43-9512-release3.3.sbom.json","a3f597cf21012db8d273ab773cb8230c563a85abd06f2d24956c3c86df172110","CycloneDX","1.6","CopyAndOpen","1.0","574","False","SCALIBR"
+"exoprint/exoprint-generic-3.3-SR1-64bit-net8-2026-01-16T08-26-9512-release3.3.sbom.json","05401d4bdd9a9240a07a2bd605a7eca48cb8b036903093606e550d704fca2e67","CycloneDX","1.6","TransferTo3DPrinter","1.0","53","False","SCALIBR"
+"LibraryManager/LibraryManager-generic-3.3-SR1-64bit-net8-2026-01-16T08-26-9512-release3.3.sbom.json","798ed1314d34c43885ae4c78e03d5677b68b698f9148b2cde4344a89bf55c387","CycloneDX","1.6","libraryManager","1.0","99","False","SCALIBR"

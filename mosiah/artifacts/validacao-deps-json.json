@@ -1,0 +1,28 @@
+﻿{
+    "CheckedUtc":  "2026-10-17T18:16:59.9616882Z",
+    "Method":  "Independent PowerShell ConvertFrom-Json parse of installed .deps.json files",
+    "TargetRoot":  "C:\\exocad-DentalCAD3.3-SR1-2026-01-16",
+    "Excluded":  [
+                     "CAD-Data",
+                     "user profile"
+                 ],
+    "ManifestCount":  52,
+    "ManifestsInNodeCatalog":  52,
+    "ManifestCountsByComponent":  {
+                                      "DentalDB":  44,
+                                      "LibraryManager":  2,
+                                      "DentalCADApp":  5,
+                                      "exoprint":  1
+                                  },
+    "DeclaredLibraryCountsByType":  {
+                                        "reference":  59,
+                                        "project":  253,
+                                        "package":  3357
+                                    },
+    "DependencyEdgeCount":  11782,
+    "ExactKeyResolutions":  11782,
+    "UnresolvedOrParseErrors":  0,
+    "MatchesNodeAnalyzer":  true,
+    "NodeSummaryPath":  "artifacts/deps-json/deps-analysis-summary.json",
+    "Result":  "PASS"
+}

@@ -1,0 +1,54 @@
+﻿{
+    "Method":  "System.Security.Cryptography.X509Certificates.X509Certificate.CreateFromSignedFile",
+    "Scope":  [
+                  "DentalCADApp\\bin\\DentalCADApp.exe",
+                  "DentalDB\\bin\\DentalDB.exe",
+                  "exoprint\\bin\\TransferTo3DPrinter.exe",
+                  "LibraryManager\\bin\\LibraryManager.exe"
+              ],
+    "TrustValidationPerformed":  false,
+    "RevocationChecked":  false,
+    "Interpretation":  "Certificate extraction records embedded signer metadata only. It does not verify the Authenticode digest, certificate chain, revocation, timestamp trust, or publisher authenticity.",
+    "Files":  [
+                  {
+                      "RelativePath":  "DentalCADApp\\bin\\DentalCADApp.exe",
+                      "Status":  "Embedded signer certificate extracted",
+                      "FileSHA256":  "db3f45f7e8c99f909a4fde9ea79f5ae17b566fed63c024ce735dd793177dd0fa",
+                      "Subject":  "CN=exocad GmbH, O=exocad GmbH, L=Darmstadt, S=Hessen, C=DE",
+                      "Issuer":  "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+                      "CertificateThumbprintSHA1":  "84418DD3E9FA3A25FEB95B1F8EB904B5CB563034",
+                      "NotBeforeUtc":  "2024-09-17T00:00:00.0000000Z",
+                      "NotAfterUtc":  "2027-09-16T23:59:59.0000000Z"
+                  },
+                  {
+                      "RelativePath":  "DentalDB\\bin\\DentalDB.exe",
+                      "Status":  "Embedded signer certificate extracted",
+                      "FileSHA256":  "c05969fb5b1879f05661211044ac9a57d8ba193aca5cbf65615545adcecaf6a8",
+                      "Subject":  "CN=exocad GmbH, O=exocad GmbH, L=Darmstadt, S=Hessen, C=DE",
+                      "Issuer":  "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+                      "CertificateThumbprintSHA1":  "84418DD3E9FA3A25FEB95B1F8EB904B5CB563034",
+                      "NotBeforeUtc":  "2024-09-17T00:00:00.0000000Z",
+                      "NotAfterUtc":  "2027-09-16T23:59:59.0000000Z"
+                  },
+                  {
+                      "RelativePath":  "exoprint\\bin\\TransferTo3DPrinter.exe",
+                      "Status":  "Embedded signer certificate extracted",
+                      "FileSHA256":  "65254e1254fded13636fbff872c051f699aa7168cd87f56782b95bf9ad93c927",
+                      "Subject":  "CN=exocad GmbH, O=exocad GmbH, L=Darmstadt, S=Hessen, C=DE",
+                      "Issuer":  "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+                      "CertificateThumbprintSHA1":  "84418DD3E9FA3A25FEB95B1F8EB904B5CB563034",
+                      "NotBeforeUtc":  "2024-09-17T00:00:00.0000000Z",
+                      "NotAfterUtc":  "2027-09-16T23:59:59.0000000Z"
+                  },
+                  {
+                      "RelativePath":  "LibraryManager\\bin\\LibraryManager.exe",
+                      "Status":  "Embedded signer certificate extracted",
+                      "FileSHA256":  "c945b83e81fb0465b6d8fb6f902ef19a8a320d82c062bc9b80b1ba85d2067ae2",
+                      "Subject":  "CN=exocad GmbH, O=exocad GmbH, L=Darmstadt, S=Hessen, C=DE",
+                      "Issuer":  "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+                      "CertificateThumbprintSHA1":  "84418DD3E9FA3A25FEB95B1F8EB904B5CB563034",
+                      "NotBeforeUtc":  "2024-09-17T00:00:00.0000000Z",
+                      "NotAfterUtc":  "2027-09-16T23:59:59.0000000Z"
+                  }
+              ]
+}

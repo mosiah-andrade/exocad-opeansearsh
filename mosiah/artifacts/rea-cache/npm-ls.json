@@ -1,0 +1,10 @@
+{
+  "name": "runtime",
+  "dependencies": {
+    "rea-agents": {
+      "version": "6.5.0",
+      "resolved": "file:C:\\Users\\labor\\Downloads\\mosiah\\artifacts\\rea-cache\\rea-agents-6.5.0.tgz",
+      "overridden": false
+    }
+  }
+}

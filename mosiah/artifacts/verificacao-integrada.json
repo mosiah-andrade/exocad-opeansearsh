@@ -1,0 +1,181 @@
+{
+  "result": "PASS",
+  "scope": "Workspace evidence only; no Exocad target access, patient data, network, or code analysis",
+  "artifactHashes": {
+    "checked": 66,
+    "passed": 66,
+    "failed": 0
+  },
+  "requirements": {
+    "requiredPathAccounting": true,
+    "catalogRecheck": "PASS: catalogs match by path, size and SHA-256.",
+    "catalogFiles": 13151,
+    "distinctCatalogHashes": 8995,
+    "duplicateHashGroups": 1603,
+    "duplicateHashFiles": 5759,
+    "duplicateExtraCopies": 4156,
+    "signerCertificates": 4,
+    "authenticodeVerifiedAgainstLocalPolicy": 4,
+    "authenticodePEs": 543,
+    "authenticodeLifetimeConstrainedPass": 211,
+    "authenticodeDefaultTimestampPolicyPass": 312,
+    "authenticodeHashMatches": 543,
+    "authenticodeStatuses": [
+      {
+        "StatusCode": "0x00000000",
+        "Count": 211
+      },
+      {
+        "StatusCode": "0x800B0101",
+        "Count": 312
+      },
+      {
+        "StatusCode": "0x800B0100",
+        "Count": 20
+      }
+    ],
+    "authenticodeSignerSubjects": [
+      {
+        "subject": "CN=exocad GmbH, O=exocad GmbH, L=Darmstadt, S=Hessen, C=DE",
+        "count": 219,
+        "localLifetimePass": 209,
+        "expiredUnderLifetime": 10,
+        "noSignature": 0
+      },
+      {
+        "subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+        "count": 195,
+        "localLifetimePass": 0,
+        "expiredUnderLifetime": 195,
+        "noSignature": 0
+      },
+      {
+        "subject": "CN=.NET, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+        "count": 82,
+        "localLifetimePass": 0,
+        "expiredUnderLifetime": 82,
+        "noSignature": 0
+      },
+      {
+        "subject": "(no embedded signer certificate extracted)",
+        "count": 20,
+        "localLifetimePass": 0,
+        "expiredUnderLifetime": 0,
+        "noSignature": 20
+      },
+      {
+        "subject": "CN=CoreWCF (.NET Foundation), O=CoreWCF (.NET Foundation), L=Redmond, S=WASHINGTON, C=US, SERIALNUMBER=603 389 068, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Washington, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+        "count": 7,
+        "localLifetimePass": 0,
+        "expiredUnderLifetime": 7,
+        "noSignature": 0
+      },
+      {
+        "subject": "CN=Mistachkin Systems (Joseph Mistachkin), O=Mistachkin Systems (Joseph Mistachkin), L=Beaverton, S=Oregon, C=US, SERIALNUMBER=364617-96, OID.1.3.6.1.4.1.311.60.2.1.2=Oregon, OID.1.3.6.1.4.1.311.60.2.1.3=US, OID.2.5.4.15=Business Entity",
+        "count": 6,
+        "localLifetimePass": 0,
+        "expiredUnderLifetime": 6,
+        "noSignature": 0
+      },
+      {
+        "subject": "CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US",
+        "count": 4,
+        "localLifetimePass": 0,
+        "expiredUnderLifetime": 4,
+        "noSignature": 0
+      },
+      {
+        "subject": "CN=Json.NET (.NET Foundation), O=Json.NET (.NET Foundation), L=Redmond, S=wa, C=US, SERIALNUMBER=603 389 068",
+        "count": 4,
+        "localLifetimePass": 0,
+        "expiredUnderLifetime": 4,
+        "noSignature": 0
+      },
+      {
+        "subject": "CN=Legion of the Bouncy Castle Inc., O=Legion of the Bouncy Castle Inc., S=Victoria, C=AU",
+        "count": 2,
+        "localLifetimePass": 0,
+        "expiredUnderLifetime": 2,
+        "noSignature": 0
+      },
+      {
+        "subject": "CN=Bradley Grainger, O=Bradley Grainger, L=Bellingham, S=Washington, C=US",
+        "count": 1,
+        "localLifetimePass": 1,
+        "expiredUnderLifetime": 0,
+        "noSignature": 0
+      },
+      {
+        "subject": "CN=Community Toolkit (.NET Foundation), O=Community Toolkit (.NET Foundation), L=Redmond, S=Washington, C=US, SERIALNUMBER=603 389 068, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Washington, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+        "count": 1,
+        "localLifetimePass": 1,
+        "expiredUnderLifetime": 0,
+        "noSignature": 0
+      },
+      {
+        "subject": "CN=exocad GmbH, O=exocad GmbH, L=Darmstadt, C=DE",
+        "count": 1,
+        "localLifetimePass": 0,
+        "expiredUnderLifetime": 1,
+        "noSignature": 0
+      },
+      {
+        "subject": "CN=Intel(R) Software Development Products, O=Intel Corporation, L=Santa Clara, S=CA, C=US",
+        "count": 1,
+        "localLifetimePass": 0,
+        "expiredUnderLifetime": 1,
+        "noSignature": 0
+      }
+    ],
+    "depsManifests": 52,
+    "depsEdges": 11782,
+    "runtimeConfigCount": 18,
+    "runtimeConfigParsed": 18,
+    "runtimeConfigFrameworks": [
+      {
+        "Name": "Microsoft.AspNetCore.App",
+        "Version": "8.0.0",
+        "ManifestCount": 5
+      },
+      {
+        "Name": "Microsoft.NETCore.App",
+        "Version": "8.0.0",
+        "ManifestCount": 18
+      },
+      {
+        "Name": "Microsoft.WindowsDesktop.App",
+        "Version": "8.0.0",
+        "ManifestCount": 18
+      }
+    ],
+    "runtimeConfigUnsafeBinaryFormatterFlagCount": 18,
+    "configurationFiles": 46,
+    "configurationParsed": 44,
+    "configurationUnknownFormat": 2,
+    "meshCandidates": 172,
+    "stlBinary": 86,
+    "stlAscii": 9,
+    "stlStructureValid": 95,
+    "stlFloatFiniteFiles": 94,
+    "stlNonFiniteFloatFields": 90,
+    "meshWarnings": 1,
+    "licensingTextCandidates": 388,
+    "licensingTextMatches": 82,
+    "nonThirdPartyLicenseMatches": 0,
+    "offBinarySignatures": 77,
+    "offPayloadsParsed": 0,
+    "reaMcpDoctor": true,
+    "reaCodexConnection": "not connected; dry-run appliedActions=0",
+    "licensedTerms": "unresolved; filename and bounded text scans found no non-third-party notices; applicability unknown",
+    "dynamicAnalysis": "not performed"
+  },
+  "nodeSyntax": {
+    "checked": 9,
+    "passed": 9
+  },
+  "powershellSyntax": {
+    "checked": 6,
+    "parseErrors": 0
+  },
+  "failures": []
+}

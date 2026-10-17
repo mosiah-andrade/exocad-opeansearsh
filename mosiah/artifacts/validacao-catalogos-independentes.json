@@ -1,0 +1,32 @@
+﻿{
+    "CheckedUtc":  "2026-10-17T18:10:09.4128732Z",
+    "Target":  "C:\\exocad-DentalCAD3.3-SR1-2026-01-16",
+    "Excluded":  "CAD-Data and user-profile data",
+    "NodeVersion":  "v24.20.0",
+    "PowerShellCatalogRows":  13151,
+    "NodeCatalogRows":  13151,
+    "NodeJsonRows":  13151,
+    "PowerShellErrors":  0,
+    "NodeErrors":  0,
+    "MissingPaths":  0,
+    "ExtraPaths":  0,
+    "SizeDifferences":  0,
+    "SHA256Differences":  0,
+    "PECount":  543,
+    "PEMachineDifferences":  0,
+    "ManagedAssemblyDetectionDifferences":  0,
+    "DuplicateGroupsPowerShell":  1603,
+    "DuplicateGroupsNode":  1603,
+    "NodeCatalogPath":  "artifacts/catalogo-exocad-node/catalogo-exocad-node.csv",
+    "Result":  "PASS: all relative paths, sizes, SHA-256 hashes, PE machines and managed-assembly classifications agree.",
+    "ComparedArtifacts":  [
+                              {
+                                  "Path":  "artifacts/catalogo-exocad.csv",
+                                  "SHA256":  "d21e9140fe85669865b9a221d801ec093581b7eae89f11aac78e292bf035ae6f"
+                              },
+                              {
+                                  "Path":  "artifacts/catalogo-exocad-node/catalogo-exocad-node.csv",
+                                  "SHA256":  "78b49a6c7a656ff2ea365485c5f0a0c7405355da9fbd41190afbc227b2a29a5c"
+                              }
+                          ]
+}

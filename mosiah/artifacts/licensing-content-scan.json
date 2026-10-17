@@ -1,0 +1,868 @@
+{
+  "GeneratedUtc": "2026-10-17T18:58:02.721Z",
+  "Scope": "Cataloged software trees only: DentalCADApp, DentalDB, exoprint, LibraryManager; CAD-Data and user profiles excluded.",
+  "Method": "UTF-8 phrase/category scan of bounded text documentation; matched text and surrounding snippets are not stored.",
+  "Extensions": [
+    ".htm",
+    ".html",
+    ".md",
+    ".rtf",
+    ".txt"
+  ],
+  "MaxFileSizeBytes": 10485760,
+  "CatalogSHA256": "a167d17074b3803a19b18e49fea9a553da753ff2acd3c62c8e0d3bfa3e257096",
+  "PdfCatalogCount": 0,
+  "CandidateCount": 388,
+  "MatchedFileCount": 82,
+  "MatchCategoryCounts": {
+    "eula_or_end_user_license": 4,
+    "license_agreement": 60,
+    "reverse_engineering_restriction": 28,
+    "decompilation_restriction": 4,
+    "disassembly_restriction": 4,
+    "terms_and_conditions": 82
+  },
+  "ErrorCount": 0,
+  "Matches": [
+    {
+      "RelativePath": "DentalCADApp/bin/FreePalmerLicense.txt",
+      "Extension": ".txt",
+      "SizeBytes": 35147,
+      "SHA256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "MatchCategories": [
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalCADApp/bin/OpenSource.dll-LICENSES/3rdparty-components-apache-license.txt",
+      "Extension": ".txt",
+      "SizeBytes": 11357,
+      "SHA256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalCADApp/bin/OpenSource.dll-LICENSES/AForge-2-lgplv3.txt",
+      "Extension": ".txt",
+      "SizeBytes": 8206,
+      "SHA256": "d86aef05da11f78adc6266ffc357f0af51719a8f95b33a832b513e67c07dc358",
+      "MatchCategories": [
+        "reverse_engineering_restriction",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalCADApp/bin/OpenSource.dll-LICENSES/avcodec-60-ffmpeg-lgpl2.1.txt",
+      "Extension": ".txt",
+      "SizeBytes": 24729,
+      "SHA256": "c8266a3f9b7f01a620c4e9d89dd17b16cb6b09d368adaf59cd3b6bf5d28eff30",
+      "MatchCategories": [
+        "license_agreement",
+        "reverse_engineering_restriction",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalCADApp/bin/OpenSource.dll-LICENSES/avformat-60-ffmpeg-lgpl2.1.txt",
+      "Extension": ".txt",
+      "SizeBytes": 24730,
+      "SHA256": "35c01e126476286fe3541c19dde363cac2c960e7c03d3f0ff14299c69e629400",
+      "MatchCategories": [
+        "license_agreement",
+        "reverse_engineering_restriction",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalCADApp/bin/OpenSource.dll-LICENSES/avutil-58-ffmpeg-lgpl2.1.txt",
+      "Extension": ".txt",
+      "SizeBytes": 24728,
+      "SHA256": "c6108b514949f74b917bc3e7c3de590612317ca2b2192966163f02fe9fcb319b",
+      "MatchCategories": [
+        "license_agreement",
+        "reverse_engineering_restriction",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalCADApp/bin/OpenSource.dll-LICENSES/CPOL.htm",
+      "Extension": ".htm",
+      "SizeBytes": 13811,
+      "SHA256": "ee16f2a97674ba92da034da9e85e0baed296cf665020810770706f208e044d3e",
+      "MatchCategories": [
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalCADApp/bin/OpenSource.dll-LICENSES/draco-LICENSE.txt",
+      "Extension": ".txt",
+      "SizeBytes": 13898,
+      "SHA256": "d3709b0fb4b8a94bbb1d02b8a2e484f258b0d9c5c5a01f940391f3fe662cd1a4",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalCADApp/bin/OpenSource.dll-LICENSES/google-Draco-LICENSE.txt",
+      "Extension": ".txt",
+      "SizeBytes": 13898,
+      "SHA256": "d3709b0fb4b8a94bbb1d02b8a2e484f258b0d9c5c5a01f940391f3fe662cd1a4",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalCADApp/bin/OpenSource.dll-LICENSES/grpc-LICENSE.txt",
+      "Extension": ".txt",
+      "SizeBytes": 29687,
+      "SHA256": "590198e3f305f2c347fde64d637c65492bbef554db6c8364e149cd375e3797ee",
+      "MatchCategories": [
+        "eula_or_end_user_license",
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalCADApp/bin/OpenSource.dll-LICENSES/Ionic.Zip.txt",
+      "Extension": ".txt",
+      "SizeBytes": 14219,
+      "SHA256": "3c8868820854a080e1ff75dd80a9fdac088e632e5585e52ed799ab24e2c1031b",
+      "MatchCategories": [
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalCADApp/bin/OpenSource.dll-LICENSES/lgpl-v2.1.txt",
+      "Extension": ".txt",
+      "SizeBytes": 24497,
+      "SHA256": "327ddf9044810ebe00a5dce29f1e99a38c584fb4536a412324bbc7bbd59552c1",
+      "MatchCategories": [
+        "license_agreement",
+        "reverse_engineering_restriction",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalCADApp/bin/OpenSource.dll-LICENSES/log4netlicense.txt",
+      "Extension": ".txt",
+      "SizeBytes": 11343,
+      "SHA256": "b1ce95743d96904873df7d445352cc01ea475509e9a119289252ece0f2bfa35a",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalCADApp/bin/OpenSource.dll-LICENSES/MaterialDesignIcons_Google.txt",
+      "Extension": ".txt",
+      "SizeBytes": 11434,
+      "SHA256": "d3b9a61e6972eb0426d3046b6c05a85b0f9d60745ba16e544141961bc1d4f2ed",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalCADApp/bin/OpenSource.dll-LICENSES/Microsoft.Extensions.Logging.Log4Net.AspNetCore.txt",
+      "Extension": ".txt",
+      "SizeBytes": 11360,
+      "SHA256": "bd9df84b6904dfb10da00376fbb057f9927074ed967522ee8f8ec9a8f53c5020",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalCADApp/bin/OpenSource.dll-LICENSES/minor_code_snippets_and_components_by_codeprojectlicense.html",
+      "Extension": ".html",
+      "SizeBytes": 14219,
+      "SHA256": "3c8868820854a080e1ff75dd80a9fdac088e632e5585e52ed799ab24e2c1031b",
+      "MatchCategories": [
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalCADApp/bin/OpenSource.dll-LICENSES/NHibernate.license.txt",
+      "Extension": ".txt",
+      "SizeBytes": 24497,
+      "SHA256": "327ddf9044810ebe00a5dce29f1e99a38c584fb4536a412324bbc7bbd59552c1",
+      "MatchCategories": [
+        "license_agreement",
+        "reverse_engineering_restriction",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalCADApp/bin/OpenSource.dll-LICENSES/nvidia.txt",
+      "Extension": ".txt",
+      "SizeBytes": 4898,
+      "SHA256": "cff8c8e5df36a8560f6eea366dbee049d3bda3285697fa45a286363176fac44c",
+      "MatchCategories": [
+        "reverse_engineering_restriction",
+        "decompilation_restriction",
+        "disassembly_restriction",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalCADApp/bin/OpenSource.dll-LICENSES/OpenCV.txt",
+      "Extension": ".txt",
+      "SizeBytes": 13645,
+      "SHA256": "d805553509a9f1a3c096539e6c86dd4dd74ccb9a6d9c168e0544359540c6ab53",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalCADApp/bin/OpenSource.dll-LICENSES/Roboto.txt",
+      "Extension": ".txt",
+      "SizeBytes": 11357,
+      "SHA256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalCADApp/bin/OpenSource.dll-LICENSES/scnlib-LICENSE.txt",
+      "Extension": ".txt",
+      "SizeBytes": 11357,
+      "SHA256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalDB/bin/FreePalmerLicense.txt",
+      "Extension": ".txt",
+      "SizeBytes": 35147,
+      "SHA256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "MatchCategories": [
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalDB/bin/OpenSource.dll-LICENSES/3rdparty-components-apache-license.txt",
+      "Extension": ".txt",
+      "SizeBytes": 11357,
+      "SHA256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalDB/bin/OpenSource.dll-LICENSES/AForge-2-lgplv3.txt",
+      "Extension": ".txt",
+      "SizeBytes": 8206,
+      "SHA256": "d86aef05da11f78adc6266ffc357f0af51719a8f95b33a832b513e67c07dc358",
+      "MatchCategories": [
+        "reverse_engineering_restriction",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalDB/bin/OpenSource.dll-LICENSES/avcodec-60-ffmpeg-lgpl2.1.txt",
+      "Extension": ".txt",
+      "SizeBytes": 24729,
+      "SHA256": "c8266a3f9b7f01a620c4e9d89dd17b16cb6b09d368adaf59cd3b6bf5d28eff30",
+      "MatchCategories": [
+        "license_agreement",
+        "reverse_engineering_restriction",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalDB/bin/OpenSource.dll-LICENSES/avformat-60-ffmpeg-lgpl2.1.txt",
+      "Extension": ".txt",
+      "SizeBytes": 24730,
+      "SHA256": "35c01e126476286fe3541c19dde363cac2c960e7c03d3f0ff14299c69e629400",
+      "MatchCategories": [
+        "license_agreement",
+        "reverse_engineering_restriction",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalDB/bin/OpenSource.dll-LICENSES/avutil-58-ffmpeg-lgpl2.1.txt",
+      "Extension": ".txt",
+      "SizeBytes": 24728,
+      "SHA256": "c6108b514949f74b917bc3e7c3de590612317ca2b2192966163f02fe9fcb319b",
+      "MatchCategories": [
+        "license_agreement",
+        "reverse_engineering_restriction",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalDB/bin/OpenSource.dll-LICENSES/CPOL.htm",
+      "Extension": ".htm",
+      "SizeBytes": 13811,
+      "SHA256": "ee16f2a97674ba92da034da9e85e0baed296cf665020810770706f208e044d3e",
+      "MatchCategories": [
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalDB/bin/OpenSource.dll-LICENSES/draco-LICENSE.txt",
+      "Extension": ".txt",
+      "SizeBytes": 13898,
+      "SHA256": "d3709b0fb4b8a94bbb1d02b8a2e484f258b0d9c5c5a01f940391f3fe662cd1a4",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalDB/bin/OpenSource.dll-LICENSES/google-Draco-LICENSE.txt",
+      "Extension": ".txt",
+      "SizeBytes": 13898,
+      "SHA256": "d3709b0fb4b8a94bbb1d02b8a2e484f258b0d9c5c5a01f940391f3fe662cd1a4",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalDB/bin/OpenSource.dll-LICENSES/grpc-LICENSE.txt",
+      "Extension": ".txt",
+      "SizeBytes": 29687,
+      "SHA256": "590198e3f305f2c347fde64d637c65492bbef554db6c8364e149cd375e3797ee",
+      "MatchCategories": [
+        "eula_or_end_user_license",
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalDB/bin/OpenSource.dll-LICENSES/Ionic.Zip.txt",
+      "Extension": ".txt",
+      "SizeBytes": 14219,
+      "SHA256": "3c8868820854a080e1ff75dd80a9fdac088e632e5585e52ed799ab24e2c1031b",
+      "MatchCategories": [
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalDB/bin/OpenSource.dll-LICENSES/lgpl-v2.1.txt",
+      "Extension": ".txt",
+      "SizeBytes": 24497,
+      "SHA256": "327ddf9044810ebe00a5dce29f1e99a38c584fb4536a412324bbc7bbd59552c1",
+      "MatchCategories": [
+        "license_agreement",
+        "reverse_engineering_restriction",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalDB/bin/OpenSource.dll-LICENSES/log4netlicense.txt",
+      "Extension": ".txt",
+      "SizeBytes": 11343,
+      "SHA256": "b1ce95743d96904873df7d445352cc01ea475509e9a119289252ece0f2bfa35a",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalDB/bin/OpenSource.dll-LICENSES/MaterialDesignIcons_Google.txt",
+      "Extension": ".txt",
+      "SizeBytes": 11434,
+      "SHA256": "d3b9a61e6972eb0426d3046b6c05a85b0f9d60745ba16e544141961bc1d4f2ed",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalDB/bin/OpenSource.dll-LICENSES/Microsoft.Extensions.Logging.Log4Net.AspNetCore.txt",
+      "Extension": ".txt",
+      "SizeBytes": 11360,
+      "SHA256": "bd9df84b6904dfb10da00376fbb057f9927074ed967522ee8f8ec9a8f53c5020",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalDB/bin/OpenSource.dll-LICENSES/minor_code_snippets_and_components_by_codeprojectlicense.html",
+      "Extension": ".html",
+      "SizeBytes": 14219,
+      "SHA256": "3c8868820854a080e1ff75dd80a9fdac088e632e5585e52ed799ab24e2c1031b",
+      "MatchCategories": [
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalDB/bin/OpenSource.dll-LICENSES/NHibernate.license.txt",
+      "Extension": ".txt",
+      "SizeBytes": 24497,
+      "SHA256": "327ddf9044810ebe00a5dce29f1e99a38c584fb4536a412324bbc7bbd59552c1",
+      "MatchCategories": [
+        "license_agreement",
+        "reverse_engineering_restriction",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalDB/bin/OpenSource.dll-LICENSES/nvidia.txt",
+      "Extension": ".txt",
+      "SizeBytes": 4898,
+      "SHA256": "cff8c8e5df36a8560f6eea366dbee049d3bda3285697fa45a286363176fac44c",
+      "MatchCategories": [
+        "reverse_engineering_restriction",
+        "decompilation_restriction",
+        "disassembly_restriction",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalDB/bin/OpenSource.dll-LICENSES/OpenCV.txt",
+      "Extension": ".txt",
+      "SizeBytes": 13645,
+      "SHA256": "d805553509a9f1a3c096539e6c86dd4dd74ccb9a6d9c168e0544359540c6ab53",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalDB/bin/OpenSource.dll-LICENSES/Roboto.txt",
+      "Extension": ".txt",
+      "SizeBytes": 11357,
+      "SHA256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "DentalDB/bin/OpenSource.dll-LICENSES/scnlib-LICENSE.txt",
+      "Extension": ".txt",
+      "SizeBytes": 11357,
+      "SHA256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "exoprint/bin/OpenSource.dll-LICENSES/3rdparty-components-apache-license.txt",
+      "Extension": ".txt",
+      "SizeBytes": 11357,
+      "SHA256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "exoprint/bin/OpenSource.dll-LICENSES/AForge-2-lgplv3.txt",
+      "Extension": ".txt",
+      "SizeBytes": 8206,
+      "SHA256": "d86aef05da11f78adc6266ffc357f0af51719a8f95b33a832b513e67c07dc358",
+      "MatchCategories": [
+        "reverse_engineering_restriction",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "exoprint/bin/OpenSource.dll-LICENSES/avcodec-60-ffmpeg-lgpl2.1.txt",
+      "Extension": ".txt",
+      "SizeBytes": 24729,
+      "SHA256": "c8266a3f9b7f01a620c4e9d89dd17b16cb6b09d368adaf59cd3b6bf5d28eff30",
+      "MatchCategories": [
+        "license_agreement",
+        "reverse_engineering_restriction",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "exoprint/bin/OpenSource.dll-LICENSES/avformat-60-ffmpeg-lgpl2.1.txt",
+      "Extension": ".txt",
+      "SizeBytes": 24730,
+      "SHA256": "35c01e126476286fe3541c19dde363cac2c960e7c03d3f0ff14299c69e629400",
+      "MatchCategories": [
+        "license_agreement",
+        "reverse_engineering_restriction",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "exoprint/bin/OpenSource.dll-LICENSES/avutil-58-ffmpeg-lgpl2.1.txt",
+      "Extension": ".txt",
+      "SizeBytes": 24728,
+      "SHA256": "c6108b514949f74b917bc3e7c3de590612317ca2b2192966163f02fe9fcb319b",
+      "MatchCategories": [
+        "license_agreement",
+        "reverse_engineering_restriction",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "exoprint/bin/OpenSource.dll-LICENSES/CPOL.htm",
+      "Extension": ".htm",
+      "SizeBytes": 13811,
+      "SHA256": "ee16f2a97674ba92da034da9e85e0baed296cf665020810770706f208e044d3e",
+      "MatchCategories": [
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "exoprint/bin/OpenSource.dll-LICENSES/draco-LICENSE.txt",
+      "Extension": ".txt",
+      "SizeBytes": 13898,
+      "SHA256": "d3709b0fb4b8a94bbb1d02b8a2e484f258b0d9c5c5a01f940391f3fe662cd1a4",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "exoprint/bin/OpenSource.dll-LICENSES/google-Draco-LICENSE.txt",
+      "Extension": ".txt",
+      "SizeBytes": 13898,
+      "SHA256": "d3709b0fb4b8a94bbb1d02b8a2e484f258b0d9c5c5a01f940391f3fe662cd1a4",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "exoprint/bin/OpenSource.dll-LICENSES/grpc-LICENSE.txt",
+      "Extension": ".txt",
+      "SizeBytes": 29687,
+      "SHA256": "590198e3f305f2c347fde64d637c65492bbef554db6c8364e149cd375e3797ee",
+      "MatchCategories": [
+        "eula_or_end_user_license",
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "exoprint/bin/OpenSource.dll-LICENSES/Ionic.Zip.txt",
+      "Extension": ".txt",
+      "SizeBytes": 14219,
+      "SHA256": "3c8868820854a080e1ff75dd80a9fdac088e632e5585e52ed799ab24e2c1031b",
+      "MatchCategories": [
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "exoprint/bin/OpenSource.dll-LICENSES/lgpl-v2.1.txt",
+      "Extension": ".txt",
+      "SizeBytes": 24497,
+      "SHA256": "327ddf9044810ebe00a5dce29f1e99a38c584fb4536a412324bbc7bbd59552c1",
+      "MatchCategories": [
+        "license_agreement",
+        "reverse_engineering_restriction",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "exoprint/bin/OpenSource.dll-LICENSES/log4netlicense.txt",
+      "Extension": ".txt",
+      "SizeBytes": 11343,
+      "SHA256": "b1ce95743d96904873df7d445352cc01ea475509e9a119289252ece0f2bfa35a",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "exoprint/bin/OpenSource.dll-LICENSES/MaterialDesignIcons_Google.txt",
+      "Extension": ".txt",
+      "SizeBytes": 11434,
+      "SHA256": "d3b9a61e6972eb0426d3046b6c05a85b0f9d60745ba16e544141961bc1d4f2ed",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "exoprint/bin/OpenSource.dll-LICENSES/Microsoft.Extensions.Logging.Log4Net.AspNetCore.txt",
+      "Extension": ".txt",
+      "SizeBytes": 11360,
+      "SHA256": "bd9df84b6904dfb10da00376fbb057f9927074ed967522ee8f8ec9a8f53c5020",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "exoprint/bin/OpenSource.dll-LICENSES/minor_code_snippets_and_components_by_codeprojectlicense.html",
+      "Extension": ".html",
+      "SizeBytes": 14219,
+      "SHA256": "3c8868820854a080e1ff75dd80a9fdac088e632e5585e52ed799ab24e2c1031b",
+      "MatchCategories": [
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "exoprint/bin/OpenSource.dll-LICENSES/NHibernate.license.txt",
+      "Extension": ".txt",
+      "SizeBytes": 24497,
+      "SHA256": "327ddf9044810ebe00a5dce29f1e99a38c584fb4536a412324bbc7bbd59552c1",
+      "MatchCategories": [
+        "license_agreement",
+        "reverse_engineering_restriction",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "exoprint/bin/OpenSource.dll-LICENSES/nvidia.txt",
+      "Extension": ".txt",
+      "SizeBytes": 4898,
+      "SHA256": "cff8c8e5df36a8560f6eea366dbee049d3bda3285697fa45a286363176fac44c",
+      "MatchCategories": [
+        "reverse_engineering_restriction",
+        "decompilation_restriction",
+        "disassembly_restriction",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "exoprint/bin/OpenSource.dll-LICENSES/OpenCV.txt",
+      "Extension": ".txt",
+      "SizeBytes": 13645,
+      "SHA256": "d805553509a9f1a3c096539e6c86dd4dd74ccb9a6d9c168e0544359540c6ab53",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "exoprint/bin/OpenSource.dll-LICENSES/Roboto.txt",
+      "Extension": ".txt",
+      "SizeBytes": 11357,
+      "SHA256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "exoprint/bin/OpenSource.dll-LICENSES/scnlib-LICENSE.txt",
+      "Extension": ".txt",
+      "SizeBytes": 11357,
+      "SHA256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "LibraryManager/bin/OpenSource.dll-LICENSES/3rdparty-components-apache-license.txt",
+      "Extension": ".txt",
+      "SizeBytes": 11357,
+      "SHA256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "LibraryManager/bin/OpenSource.dll-LICENSES/AForge-2-lgplv3.txt",
+      "Extension": ".txt",
+      "SizeBytes": 8206,
+      "SHA256": "d86aef05da11f78adc6266ffc357f0af51719a8f95b33a832b513e67c07dc358",
+      "MatchCategories": [
+        "reverse_engineering_restriction",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "LibraryManager/bin/OpenSource.dll-LICENSES/avcodec-60-ffmpeg-lgpl2.1.txt",
+      "Extension": ".txt",
+      "SizeBytes": 24729,
+      "SHA256": "c8266a3f9b7f01a620c4e9d89dd17b16cb6b09d368adaf59cd3b6bf5d28eff30",
+      "MatchCategories": [
+        "license_agreement",
+        "reverse_engineering_restriction",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "LibraryManager/bin/OpenSource.dll-LICENSES/avformat-60-ffmpeg-lgpl2.1.txt",
+      "Extension": ".txt",
+      "SizeBytes": 24730,
+      "SHA256": "35c01e126476286fe3541c19dde363cac2c960e7c03d3f0ff14299c69e629400",
+      "MatchCategories": [
+        "license_agreement",
+        "reverse_engineering_restriction",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "LibraryManager/bin/OpenSource.dll-LICENSES/avutil-58-ffmpeg-lgpl2.1.txt",
+      "Extension": ".txt",
+      "SizeBytes": 24728,
+      "SHA256": "c6108b514949f74b917bc3e7c3de590612317ca2b2192966163f02fe9fcb319b",
+      "MatchCategories": [
+        "license_agreement",
+        "reverse_engineering_restriction",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "LibraryManager/bin/OpenSource.dll-LICENSES/CPOL.htm",
+      "Extension": ".htm",
+      "SizeBytes": 13811,
+      "SHA256": "ee16f2a97674ba92da034da9e85e0baed296cf665020810770706f208e044d3e",
+      "MatchCategories": [
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "LibraryManager/bin/OpenSource.dll-LICENSES/draco-LICENSE.txt",
+      "Extension": ".txt",
+      "SizeBytes": 13898,
+      "SHA256": "d3709b0fb4b8a94bbb1d02b8a2e484f258b0d9c5c5a01f940391f3fe662cd1a4",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "LibraryManager/bin/OpenSource.dll-LICENSES/google-Draco-LICENSE.txt",
+      "Extension": ".txt",
+      "SizeBytes": 13898,
+      "SHA256": "d3709b0fb4b8a94bbb1d02b8a2e484f258b0d9c5c5a01f940391f3fe662cd1a4",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "LibraryManager/bin/OpenSource.dll-LICENSES/grpc-LICENSE.txt",
+      "Extension": ".txt",
+      "SizeBytes": 29687,
+      "SHA256": "590198e3f305f2c347fde64d637c65492bbef554db6c8364e149cd375e3797ee",
+      "MatchCategories": [
+        "eula_or_end_user_license",
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "LibraryManager/bin/OpenSource.dll-LICENSES/Ionic.Zip.txt",
+      "Extension": ".txt",
+      "SizeBytes": 14219,
+      "SHA256": "3c8868820854a080e1ff75dd80a9fdac088e632e5585e52ed799ab24e2c1031b",
+      "MatchCategories": [
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "LibraryManager/bin/OpenSource.dll-LICENSES/lgpl-v2.1.txt",
+      "Extension": ".txt",
+      "SizeBytes": 24497,
+      "SHA256": "327ddf9044810ebe00a5dce29f1e99a38c584fb4536a412324bbc7bbd59552c1",
+      "MatchCategories": [
+        "license_agreement",
+        "reverse_engineering_restriction",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "LibraryManager/bin/OpenSource.dll-LICENSES/log4netlicense.txt",
+      "Extension": ".txt",
+      "SizeBytes": 11343,
+      "SHA256": "b1ce95743d96904873df7d445352cc01ea475509e9a119289252ece0f2bfa35a",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "LibraryManager/bin/OpenSource.dll-LICENSES/MaterialDesignIcons_Google.txt",
+      "Extension": ".txt",
+      "SizeBytes": 11434,
+      "SHA256": "d3b9a61e6972eb0426d3046b6c05a85b0f9d60745ba16e544141961bc1d4f2ed",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "LibraryManager/bin/OpenSource.dll-LICENSES/Microsoft.Extensions.Logging.Log4Net.AspNetCore.txt",
+      "Extension": ".txt",
+      "SizeBytes": 11360,
+      "SHA256": "bd9df84b6904dfb10da00376fbb057f9927074ed967522ee8f8ec9a8f53c5020",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "LibraryManager/bin/OpenSource.dll-LICENSES/minor_code_snippets_and_components_by_codeprojectlicense.html",
+      "Extension": ".html",
+      "SizeBytes": 14219,
+      "SHA256": "3c8868820854a080e1ff75dd80a9fdac088e632e5585e52ed799ab24e2c1031b",
+      "MatchCategories": [
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "LibraryManager/bin/OpenSource.dll-LICENSES/NHibernate.license.txt",
+      "Extension": ".txt",
+      "SizeBytes": 24497,
+      "SHA256": "327ddf9044810ebe00a5dce29f1e99a38c584fb4536a412324bbc7bbd59552c1",
+      "MatchCategories": [
+        "license_agreement",
+        "reverse_engineering_restriction",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "LibraryManager/bin/OpenSource.dll-LICENSES/nvidia.txt",
+      "Extension": ".txt",
+      "SizeBytes": 4898,
+      "SHA256": "cff8c8e5df36a8560f6eea366dbee049d3bda3285697fa45a286363176fac44c",
+      "MatchCategories": [
+        "reverse_engineering_restriction",
+        "decompilation_restriction",
+        "disassembly_restriction",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "LibraryManager/bin/OpenSource.dll-LICENSES/OpenCV.txt",
+      "Extension": ".txt",
+      "SizeBytes": 13645,
+      "SHA256": "d805553509a9f1a3c096539e6c86dd4dd74ccb9a6d9c168e0544359540c6ab53",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "LibraryManager/bin/OpenSource.dll-LICENSES/Roboto.txt",
+      "Extension": ".txt",
+      "SizeBytes": 11357,
+      "SHA256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    },
+    {
+      "RelativePath": "LibraryManager/bin/OpenSource.dll-LICENSES/scnlib-LICENSE.txt",
+      "Extension": ".txt",
+      "SizeBytes": 11357,
+      "SHA256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "MatchCategories": [
+        "license_agreement",
+        "terms_and_conditions"
+      ]
+    }
+  ],
+  "Errors": [],
+  "Interpretation": "Phrase matches are discovery leads, not proof that a document governs this installation. No contract applicability is inferred."
+}

@@ -1,0 +1,35 @@
+﻿{
+    "ObservedUtc":  "2026-10-17T18:28:03.3421533Z",
+    "Scope":  [
+                  "C:\\exocad-DentalCAD3.3-SR1-2026-01-16\\DentalCADApp",
+                  "C:\\exocad-DentalCAD3.3-SR1-2026-01-16\\DentalDB",
+                  "C:\\exocad-DentalCAD3.3-SR1-2026-01-16\\exoprint",
+                  "C:\\exocad-DentalCAD3.3-SR1-2026-01-16\\LibraryManager"
+              ],
+    "Method":  "Enumerate candidate documentation filenames only; do not read file contents",
+    "FilenamePattern":  "eula|license|licence|terms|agreement",
+    "Extensions":  [
+                       ".txt",
+                       ".rtf",
+                       ".pdf",
+                       ".html",
+                       ".htm",
+                       ".xml",
+                       ".json",
+                       ".md"
+                   ],
+    "CandidateCount":  130,
+    "ThirdPartyNoticeCount":  128,
+    "OtherCandidateCount":  2,
+    "OtherCandidates":  [
+                            {
+                                "RelativePath":  "DentalCADApp\\bin\\FreePalmerLicense.txt",
+                                "SizeBytes":  35147
+                            },
+                            {
+                                "RelativePath":  "DentalDB\\bin\\FreePalmerLicense.txt",
+                                "SizeBytes":  35147
+                            }
+                        ],
+    "Interpretation":  "No product EULA was identified by this filename-limited scan. This does not establish that no license terms are present under other names or embedded in binaries."
+}

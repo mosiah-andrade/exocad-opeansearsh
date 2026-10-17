@@ -1,0 +1,11 @@
+{
+  "CheckedUtc": "2026-10-17T18:10:29.281Z",
+  "Reference": "catalogo-exocad.csv",
+  "Current": "catalogo-exocad-node.csv",
+  "ReferenceCount": 13151,
+  "CurrentCount": 13151,
+  "Added": [],
+  "Removed": [],
+  "Changed": [],
+  "Result": "PASS: catalogs match by path, size and SHA-256."
+}

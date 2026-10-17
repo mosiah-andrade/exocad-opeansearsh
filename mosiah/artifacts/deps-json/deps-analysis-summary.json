@@ -1,0 +1,27 @@
+{
+  "TargetRoot": "C:\\exocad-DentalCAD3.3-SR1-2026-01-16",
+  "Scope": [
+    "DentalCADApp",
+    "DentalDB",
+    "exoprint",
+    "LibraryManager"
+  ],
+  "Excluded": [
+    "CAD-Data",
+    "user profile"
+  ],
+  "EvidenceType": "declared metadata in local .deps.json files; not runtime loading evidence",
+  "ManifestCount": 52,
+  "DeclaredDependencyEdgeCount": 11782,
+  "ExactKeyResolutions": 11782,
+  "UniqueNameResolutions": 0,
+  "AmbiguousResolutions": 0,
+  "UnresolvedDependencies": 0,
+  "Components": {
+    "DentalCADApp": 5,
+    "DentalDB": 44,
+    "exoprint": 1,
+    "LibraryManager": 2
+  },
+  "Errors": []
+}

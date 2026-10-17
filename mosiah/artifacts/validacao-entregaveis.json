@@ -1,0 +1,311 @@
+{
+  "CheckedUtc": "2026-10-17T18:59:59.067Z",
+  "RequiredFileCount": 67,
+  "MissingFiles": [],
+  "PowerShellScriptParseErrors": 0,
+  "NodeScriptSyntaxChecks": 8,
+  "PowerShellCatalogRows": 13151,
+  "PowerShellJsonRows": 13151,
+  "PowerShellCatalogErrors": 0,
+  "NodeCatalogRows": 13151,
+  "NodeJsonRows": 13151,
+  "NodeCatalogErrors": 0,
+  "AllPowerShellHashesValid": true,
+  "AllNodeHashesValid": true,
+  "CADDataExcluded": true,
+  "MainExecutableHashMatches": true,
+  "IndependentPathsSizeHashesAndPEMetadataMatch": true,
+  "FrameworkRows": 9,
+  "SBOMCount": 4,
+  "SBOMComponentRows": 892,
+  "NodeSelfComparisonPassed": true,
+  "ArtifactHashes": [
+    {
+      "Path": "artifacts/catalogo-exocad-node/catalogo-exocad-node.csv",
+      "SHA256": "78b49a6c7a656ff2ea365485c5f0a0c7405355da9fbd41190afbc227b2a29a5c"
+    },
+    {
+      "Path": "artifacts/catalogo-exocad-node/catalogo-exocad-node.json",
+      "SHA256": "5c95887f649bba319e2fea2bd72f6d258bb26562bf14cd1114bf78085d09c685"
+    },
+    {
+      "Path": "artifacts/catalogo-exocad.csv",
+      "SHA256": "d21e9140fe85669865b9a221d801ec093581b7eae89f11aac78e292bf035ae6f"
+    },
+    {
+      "Path": "artifacts/catalogo-exocad.json",
+      "SHA256": "a167d17074b3803a19b18e49fea9a553da753ff2acd3c62c8e0d3bfa3e257096"
+    },
+    {
+      "Path": "artifacts/catalogo-recheck/catalogo-exocad-node.csv",
+      "SHA256": "78b49a6c7a656ff2ea365485c5f0a0c7405355da9fbd41190afbc227b2a29a5c"
+    },
+    {
+      "Path": "artifacts/catalogo-recheck/catalogo-exocad-node.json",
+      "SHA256": "442be6fb117b3013206e778a55388dac9e9cbb1e5c9f82d8f60d3f01a1da49a2"
+    },
+    {
+      "Path": "artifacts/certificados-assinatura-pe.json",
+      "SHA256": "e08c8aeb24908a39b5a4a9f243a72538e0e468d6be8f280c78f19c987675dd00"
+    },
+    {
+      "Path": "artifacts/comparacao-authenticode-timestamp.json",
+      "SHA256": "fbdf6c95943ad0b7b4c6ccef8d62aa7b8ba416448134f3d3a8a12c2c702eb553"
+    },
+    {
+      "Path": "artifacts/configuration-structure-summary.json",
+      "SHA256": "5b90bc010653a7a59a06e584c39be0877dea7c314e7acd4a82a90f28235c5f8f"
+    },
+    {
+      "Path": "artifacts/deps-json/deps-analysis-summary.json",
+      "SHA256": "dd543cbb21b737b619d0b8c38ab2117454dfcb7f1e4380db48ffafb03cedaae8"
+    },
+    {
+      "Path": "artifacts/deps-json/deps-edges.csv",
+      "SHA256": "9d2b0db4d9f7114f0acdd13a072bc2fcb14ac41242ae5fcb28514b3fe0e429d6"
+    },
+    {
+      "Path": "artifacts/deps-json/deps-manifests-summary.csv",
+      "SHA256": "c0a37004f39664977c912e1f156ef79b89295cf4502f6727acdd2255dd826763"
+    },
+    {
+      "Path": "artifacts/duplicate-hash-summary.json",
+      "SHA256": "b0340f8e34d201e62757ffa0f26d5d952cf5292862500566dc6eea416f1a9166"
+    },
+    {
+      "Path": "artifacts/framework-exocad.csv",
+      "SHA256": "020237565620515f97bc57108046beac2d78330c4d3eab2162f78c9830f10a11"
+    },
+    {
+      "Path": "artifacts/licensing-content-scan.json",
+      "SHA256": "59d45d5773dd1ea13d675f9f686ea377d1481657094eee5ccc0eb7af385e2f60"
+    },
+    {
+      "Path": "artifacts/licensing-notice-scan.json",
+      "SHA256": "c29b03e14a08e15d7f57c7867c272ea572f2d5ee2a3d269283c90c6fd5b6a2b9"
+    },
+    {
+      "Path": "artifacts/mesh-format-summary.json",
+      "SHA256": "e09b8dda8906be6ab8951fe5b1d87dc02fd362a8bb610c6b21df5bffa07697d0"
+    },
+    {
+      "Path": "artifacts/passive-process-check.json",
+      "SHA256": "4d8f57e2a01c5c793f65b2b03002a39a669022b818340c5fba36946cd67d1a51"
+    },
+    {
+      "Path": "artifacts/rea-cache/capabilities-codex.json",
+      "SHA256": "b1c17e64bbdfba440218a9dc3eca94c4167e2ac67262573ffad66cdd13976c82"
+    },
+    {
+      "Path": "artifacts/rea-cache/doctor-codex.json",
+      "SHA256": "f32806c2ce94fcf74144920c1c121f3ec7deca62f8cb9a39322f2f6775c22fbb"
+    },
+    {
+      "Path": "artifacts/rea-cache/installation-and-plan.json",
+      "SHA256": "36caef74897d112573bdf59e7a52ae1cc2151118253a1633dd87695703361de5"
+    },
+    {
+      "Path": "artifacts/rea-cache/mcp-doctor-codex.json",
+      "SHA256": "df7341ddc8520461eb5038a4ce15862a715f6d931edc0483a0679e5dba225ddb"
+    },
+    {
+      "Path": "artifacts/rea-cache/npm-ls.json",
+      "SHA256": "bb9d33d586fa1a85afb19a082644d72e18e71d6170913686e73254e44cd51ebb"
+    },
+    {
+      "Path": "artifacts/rea-cache/package.json",
+      "SHA256": "d50419395edbd53b7571a2bdf205ddfe67ebada9231d2320ce529bd209a34681"
+    },
+    {
+      "Path": "artifacts/rea-cache/setup-dry-run-codex.json",
+      "SHA256": "fd5cc9ed8699557dae559c3d9983bf0817ff9bd17fb2a8c09e6483ca56c1a889"
+    },
+    {
+      "Path": "artifacts/runtimeconfig-summary.json",
+      "SHA256": "7614ef7bd018d062efcac4c71bb47c26cd4a23c76dd880efe5f6a3f7d295e013"
+    },
+    {
+      "Path": "artifacts/sbom-components.csv",
+      "SHA256": "af041f3e5bf0c5df2fbebb4041626edede2ba1aabaa024136c20c508015b3108"
+    },
+    {
+      "Path": "artifacts/sbom-summary.csv",
+      "SHA256": "9ed92f214e2c34aacf71292956122e58fd2d8a5f209cd8b4b71b1025dd2fed95"
+    },
+    {
+      "Path": "artifacts/validacao-authenticode-catalogo.json",
+      "SHA256": "7871cd0fb47a4a24687f2de1decde67cca09c76bf797dedca28e8f0b5676ae21"
+    },
+    {
+      "Path": "artifacts/validacao-authenticode-offline.json",
+      "SHA256": "bfd00c0feb8e9bcd22ff8e01fc1d81fe482af8f8e6ca6b60b4318761020a4913"
+    },
+    {
+      "Path": "artifacts/validacao-autocomparacao-node.json",
+      "SHA256": "d8e4fbea4195a91a49d96ed125560fc9e4424653c35ba2780769ff5edcc7c4fc"
+    },
+    {
+      "Path": "artifacts/validacao-autocomparacao.json",
+      "SHA256": "4ab11463cf9891bb8806b5440e0e38fc76964093e243b16405a543a06ffd22a7"
+    },
+    {
+      "Path": "artifacts/validacao-catalogo-recheck.json",
+      "SHA256": "7e3ca5590ff76deb04ffcde007714912874e0439623422554c1c2c38f31e6507"
+    },
+    {
+      "Path": "artifacts/validacao-catalogos-independentes-node.json",
+      "SHA256": "6a8872ea34a6f7b37793b481b37e8ecc1d7940c888ab35e1c9154216bd41e302"
+    },
+    {
+      "Path": "artifacts/validacao-catalogos-independentes.json",
+      "SHA256": "f64795dd9734e86c2fa9eff4ab7f5783e6e72d960a5cd9d30de21b989c676326"
+    },
+    {
+      "Path": "artifacts/validacao-deps-json.json",
+      "SHA256": "e7ca71050a272b9690413e01555555abbcef8819deab508a1893dbb4d152f74c"
+    },
+    {
+      "Path": "artifacts/validacao-powershell-scripts.json",
+      "SHA256": "f25265f314ee19357d57835c693320cec685dfc22e8d23920e4a7ee64b4c287e"
+    },
+    {
+      "Path": "artifacts/verificacao-integrada.json",
+      "SHA256": "cfe7ea9eea98b1302f777a2d8d68b2773f934def4e43e70e74afaf35b7b0139c"
+    },
+    {
+      "Path": "docs/01-inventario.md",
+      "SHA256": "24869af96bbfc37a843684d74069a88d0bdeafcc733720bea01252f1df2bdcc7"
+    },
+    {
+      "Path": "docs/02-catalogo-arquivos.md",
+      "SHA256": "8357bdb0361e779c9dc6d05121f0c7009363793de598098b4e0d99493d17e791"
+    },
+    {
+      "Path": "docs/03-plano-rea.md",
+      "SHA256": "a52d30ef5cb1ec89450dcb409f21229f07917dc3d8d07927c3b0974b8ca5f480"
+    },
+    {
+      "Path": "docs/04-analise-estatica.md",
+      "SHA256": "cc9f8c3f8e2538208150fce4c624e08d4b5823c7a7789e08baa5f6fdb302b08b"
+    },
+    {
+      "Path": "docs/05-analise-dinamica.md",
+      "SHA256": "1805920a0af5a06f4cdeec0b357989fbe2edcb935424feee719c383db4e5e202"
+    },
+    {
+      "Path": "docs/06-arquitetura.md",
+      "SHA256": "2a46f8ca3dd549d684cacb13fbedefa7831cbddcc67bd7ae0e05d6353ecba90a"
+    },
+    {
+      "Path": "docs/07-formatos-interoperabilidade.md",
+      "SHA256": "f6d6676f77c0fc2be8653766c6718b96e0bdaa583a37288eb0b83ded0ae10903"
+    },
+    {
+      "Path": "docs/08-validacao.md",
+      "SHA256": "b7838cc4394698ddd19729a48f3e976727a10678b3ab8090de5c834cd9e1d390"
+    },
+    {
+      "Path": "docs/diagramas/dependencias.mmd",
+      "SHA256": "49b629ea9e7f146e4ccea40da89edc9a1b4c9fada4751b474a795b45744300be"
+    },
+    {
+      "Path": "docs/diagramas/fluxos.mmd",
+      "SHA256": "4e7124626d152bf358df0fb5a08b9ac79df7d6b07e2080a287ed3691acb004d1"
+    },
+    {
+      "Path": "PLAN.md",
+      "SHA256": "cee74e178963967b8fbdb9078bf38fee44b0ec6e6d4585c5ad2af80019856753"
+    },
+    {
+      "Path": "PROGRESS.md",
+      "SHA256": "81bb03aa6b90588d96e4fedac6ef7750a290915eb4a6f46ab9d5e5dec92c91dc"
+    },
+    {
+      "Path": "RELATORIO_FINAL.md",
+      "SHA256": "3c7d8fb6313f09f68603b48d3a9faf424c84342130a6271464322d5c297fa08d"
+    },
+    {
+      "Path": "scripts/analisar-avisos-legais.mjs",
+      "SHA256": "cc969492060110eb1588c7a7c58432199519603c0a82519d4774d1bd30a5bf3f"
+    },
+    {
+      "Path": "scripts/analisar-configuracoes-estrutura.mjs",
+      "SHA256": "4c81d349607be2031d94867e2bb2e633d27063da96e75d215c6ace6c9bcb5c6b"
+    },
+    {
+      "Path": "scripts/analisar-deps-json.mjs",
+      "SHA256": "1efffec74c1cba77073e85f4fbe2f692d2fb78f1d86d651bd7c1bd17cc378398"
+    },
+    {
+      "Path": "scripts/analisar-duplicatas-catalogo.mjs",
+      "SHA256": "711515d9889a458a86963ba981b0c19a83dbbef769205aeeeeb0615262db6b69"
+    },
+    {
+      "Path": "scripts/analisar-malhas-publicas.mjs",
+      "SHA256": "cefbc03d0c9e0e50ee85182136d03842b2fb45fa8125b0ecbccc574ed93472d6"
+    },
+    {
+      "Path": "scripts/analisar-runtimeconfig.mjs",
+      "SHA256": "0dd0901ecd8d20a13c5702b595fb741269f414913577f5926f2f0c049e6ddf24"
+    },
+    {
+      "Path": "scripts/catalogar-exocad.mjs",
+      "SHA256": "40e2dd1b30e3e75ef5aec1990489ae9a2763262f1e5416d66c5fc5d4b0827e77"
+    },
+    {
+      "Path": "scripts/catalogar-exocad.ps1",
+      "SHA256": "3e6b6949c37e0ddcb897ce2c832222872e511774eb7f60f2642f7cc56219a642"
+    },
+    {
+      "Path": "scripts/comparar-authenticode-timestamp.ps1",
+      "SHA256": "349f4ef6001e3b91fafa6956b7c0d668e2618309140d1216e2e681c439a4307b"
+    },
+    {
+      "Path": "scripts/comparar-inventarios.mjs",
+      "SHA256": "6246bd9581fec0c6c3b3ca7a43a4f74a6afa8ced981bef55a143f3de5641ec7a"
+    },
+    {
+      "Path": "scripts/comparar-inventarios.ps1",
+      "SHA256": "98e28edf93b456f7aced78c892acb7e8f4a59c42ad6cc8b2a245164c36021c7e"
+    },
+    {
+      "Path": "scripts/extrair-certificados-pe.ps1",
+      "SHA256": "fc2088c67ce35e49cffd998653b625d5f57a69904cd5608269ae4fdfc75ab900"
+    },
+    {
+      "Path": "scripts/validar-evidencias.mjs",
+      "SHA256": "0e61ca2fcb4ffe7ed5d9813b2f9158ad2bc64d9bb30d6c8dc2a4fd113d968df3"
+    },
+    {
+      "Path": "scripts/verificar-authenticode-catalogo.ps1",
+      "SHA256": "a18a80fb5cef4318d582ea3265d15ca1eaa52b23f767a36b59b26d2134df0b52"
+    },
+    {
+      "Path": "scripts/verificar-authenticode-offline.ps1",
+      "SHA256": "3c3073ef636c653e5cb49f6c7339cd3af46efdedafe6cd8baab0a2aad8791238"
+    }
+  ],
+  "DependencyManifestCount": 52,
+  "IndependentDependencyValidationPassed": true,
+  "DependencyExactResolutions": 11782,
+  "DependencyEdges": 11782,
+  "HashScope": "All 66 recorded artifacts; this validation JSON is self-excluded",
+  "RequiredFiles": [
+    "artifacts/configuration-structure-summary.json",
+    "artifacts/duplicate-hash-summary.json",
+    "artifacts/licensing-content-scan.json",
+    "artifacts/mesh-format-summary.json",
+    "artifacts/rea-cache/doctor-codex.json",
+    "artifacts/rea-cache/installation-and-plan.json",
+    "artifacts/rea-cache/npm-ls.json",
+    "artifacts/rea-cache/package.json",
+    "artifacts/rea-cache/setup-dry-run-codex.json",
+    "artifacts/runtimeconfig-summary.json",
+    "scripts/analisar-avisos-legais.mjs",
+    "scripts/analisar-configuracoes-estrutura.mjs",
+    "scripts/analisar-duplicatas-catalogo.mjs",
+    "scripts/analisar-malhas-publicas.mjs",
+    "scripts/analisar-runtimeconfig.mjs"
+  ],
+  "AllArtifactHashesValid": true
+}
